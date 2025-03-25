@@ -10,6 +10,144 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 
+<style>
+    .navbar-collapse {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-nav {
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0 5px;
+    }
+
+    .nav-link {
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        width: 100px;
+        background-color: #898989;
+        color: white;
+    }
+
+    .navbar {
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        padding: 5px 0;
+    }
+
+    /* Menjaga navbar dalam satu baris */
+    .navbar-nav {
+        flex-direction: row;
+        background-color: #d9d9d9;
+        padding: 10px;
+    }
+
+    .navbar-toggler {
+        display: none !important;
+    }
+
+    /* Hero Section */
+    .hero {
+        background-color: #d9d9d9;
+        width: 100%;
+        /* Gunakan 100% agar lebar mengikuti ukuran layar */
+        height: 50vh;
+        /* Gunakan 50vh agar tinggi responsif terhadap viewport */
+        border-radius: 10px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* Vertikal centering */
+    }
+
+    /* Button di dalam hero section */
+    .btn-hero {
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        width: 100px;
+        background-color: #898989;
+        color: white;
+        position: relative;
+        margin-top: 450px;
+        margin-left: 15px;
+    }
+
+    /* Slider */
+    .slider {
+        width: 100%;
+        /* Gunakan 100% agar slider responsif */
+        height: auto;
+        padding: 10px;
+        background-color: #b8b8b8;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* Memungkinkan gambar-gambar slider untuk membungkus pada layar kecil */
+    }
+
+    /* Gambar slider */
+    .img-slider {
+        width: 160px;
+        height: 160px;
+        border-radius: 10px;
+        background-color: #ccc;
+        margin: 5px;
+    }
+
+    /* Mengatur agar gambar slider dapat menyesuaikan pada layar kecil */
+    @media (max-width: 768px) {
+        .hero {
+            height: 40vh;
+            /* Menurunkan tinggi hero section pada perangkat dengan layar lebih kecil */
+        }
+
+        .slider {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            /* Menampilkan 2 gambar per baris pada layar kecil */
+        }
+
+        .img-slider {
+            width: 100%;
+            /* Gambar slider menggunakan 100% lebar container pada layar kecil */
+            margin-bottom: 10px;
+        }
+
+        .btn-hero {
+            width: 80px;
+            /* Menyesuaikan ukuran tombol pada layar kecil */
+        }
+    }
+
+    @media (max-width: 480px) {
+        .hero {
+            height: 30vh;
+            /* Mengurangi tinggi hero section pada perangkat lebih kecil (smartphone) */
+        }
+
+        .slider {
+            grid-template-columns: 1fr;
+            /* Menampilkan gambar slider dalam satu kolom pada perangkat yang lebih kecil */
+        }
+
+        .btn-hero {
+            width: 70px;
+            /* Tombol lebih kecil di perangkat mobile */
+        }
+    }
+</style>
+
 <body>
 
     <!-- Navbar -->
