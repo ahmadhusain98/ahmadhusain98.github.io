@@ -40,23 +40,18 @@
     display: none !important;
 }
 
-/* Hero Section */
 .hero {
     background-color: #d9d9d9;
     width: 100%;
     height: 50vh;
-    /* Gunakan 50vh agar tinggi responsif terhadap viewport */
     border-radius: 10px;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* Vertikal centering */
     position: relative;
-    /* Untuk memposisikan tombol di dalamnya */
 }
 
-/* Button di dalam hero section */
 .btn-hero {
     border-radius: 10px;
     padding: 10px;
@@ -66,35 +61,30 @@
     color: white;
     position: absolute;
     bottom: 20px;
-    /* Letakkan tombol di bagian bawah hero section */
+    left: 20px;
 }
 
-/* Container untuk carousel */
 .carousel-container {
-    width: 100%;
-    padding: 10px;
+    min-width: 100%;
     overflow: hidden;
-    background-color: #898989;
+    max-width: 1350px;
+    background-color: #d9d9d9;
     padding: 10px;
-    height: auto;
     border-radius: 10px;
+    overflow-x: hidden;
 }
 
 .carousel {
     display: flex;
-    transition: transform 0.3s ease-in-out;
-    /* Transisi lebih halus */
     gap: 10px;
-    width: 100%;
+    animation: slide 20s linear infinite;
+    overflow-x: hidden;
 }
 
-.img-slider {
-    height: 160px;
+.box {
     width: 160px;
-    background-size: cover;
-    background-position: center;
+    height: 160px;
     border-radius: 10px;
-    object-fit: cover;
 }
 
 @media (max-width: 480px) {
@@ -118,12 +108,6 @@
 
     .hero {
         height: 30vh;
-        /* Mengurangi tinggi hero section pada perangkat lebih kecil (smartphone) */
-    }
-
-    .slider {
-        grid-template-columns: 1fr;
-        /* Menampilkan gambar slider dalam satu kolom pada perangkat yang lebih kecil */
     }
 
     .btn-hero {
@@ -135,36 +119,18 @@
 
     .carousel-container {
         max-width: 100%;
+        padding: 5px;
     }
 
-    .img-slider {
-        height: 160px;
-        min-width: 100%;
-        border-radius: 10px;
-    }
-}
-
-/* Responsif untuk tablet dan perangkat lebih kecil */
-@media (max-width: 768px) {
-    .hero {
-        height: 40vh;
-        /* Menurunkan tinggi hero section pada perangkat dengan layar lebih kecil */
+    .carousel {
+        animation: none;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
     }
 
-    .slider {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        /* Menampilkan 2 gambar per baris pada layar kecil */
-    }
-
-    .img-slider {
-        width: 100%;
-        /* Gambar slider menggunakan 100% lebar container pada layar kecil */
-        margin-bottom: 10px;
-    }
-
-    .btn-hero {
-        width: 80px;
-        /* Menyesuaikan ukuran tombol pada layar kecil */
+    .box {
+        flex-shrink: 0;
+        min-width: 160px;
+        min-height: 160px;
     }
 }
