@@ -1,0 +1,170 @@
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-nav {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 5px;
+}
+
+.nav-link {
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    background-color: #898989;
+    color: white;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 5px 0;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    background-color: #d9d9d9;
+    padding: 10px;
+}
+
+.navbar-toggler {
+    display: none !important;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #d9d9d9;
+    width: 100%;
+    height: 50vh;
+    /* Gunakan 50vh agar tinggi responsif terhadap viewport */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Vertikal centering */
+    position: relative;
+    /* Untuk memposisikan tombol di dalamnya */
+}
+
+/* Button di dalam hero section */
+.btn-hero {
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    background-color: #898989;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    /* Letakkan tombol di bagian bawah hero section */
+}
+
+/* Container untuk carousel */
+.carousel-container {
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #898989;
+    padding: 10px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    /* Transisi lebih halus */
+    gap: 10px;
+    width: 100%;
+}
+
+.img-slider {
+    height: 160px;
+    width: 160px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+@media (max-width: 480px) {
+    .navbar-nav {
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .nav-link {
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        width: 63px;
+        background-color: #898989;
+        color: white;
+        font-size: 12px;
+    }
+
+    .hero {
+        height: 30vh;
+        /* Mengurangi tinggi hero section pada perangkat lebih kecil (smartphone) */
+    }
+
+    .slider {
+        grid-template-columns: 1fr;
+        /* Menampilkan gambar slider dalam satu kolom pada perangkat yang lebih kecil */
+    }
+
+    .btn-hero {
+        padding: 10px;
+        bottom: 10px;
+        left: 10px;
+        width: 70px;
+    }
+
+    .carousel-container {
+        max-width: 100%;
+    }
+
+    .img-slider {
+        height: 160px;
+        min-width: 100%;
+        border-radius: 10px;
+    }
+}
+
+/* Responsif untuk tablet dan perangkat lebih kecil */
+@media (max-width: 768px) {
+    .hero {
+        height: 40vh;
+        /* Menurunkan tinggi hero section pada perangkat dengan layar lebih kecil */
+    }
+
+    .slider {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* Menampilkan 2 gambar per baris pada layar kecil */
+    }
+
+    .img-slider {
+        width: 100%;
+        /* Gambar slider menggunakan 100% lebar container pada layar kecil */
+        margin-bottom: 10px;
+    }
+
+    .btn-hero {
+        width: 80px;
+        /* Menyesuaikan ukuran tombol pada layar kecil */
+    }
+}
