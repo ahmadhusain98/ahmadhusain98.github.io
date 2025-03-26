@@ -64,29 +64,6 @@
     left: 20px;
 }
 
-.carousel-container {
-    min-width: 100%;
-    overflow: hidden;
-    max-width: 1350px;
-    background-color: #d9d9d9;
-    padding: 10px;
-    border-radius: 10px;
-    overflow-x: hidden;
-}
-
-.carousel {
-    display: flex;
-    gap: 10px;
-    animation: slide 20s linear infinite;
-    overflow-x: hidden;
-}
-
-.box {
-    width: 160px;
-    height: 160px;
-    border-radius: 10px;
-}
-
 @media (max-width: 480px) {
     .navbar-nav {
         border-radius: 10px;
@@ -115,22 +92,5 @@
         bottom: 10px;
         left: 10px;
         width: 70px;
-    }
-
-    .carousel-container {
-        max-width: 100%;
-        padding: 5px;
-    }
-
-    .carousel {
-        animation: none;
-        overflow-x: scroll;
-        -webkit-overflow-scrolling: touch;
-    }
-
-    .box {
-        flex-shrink: 0;
-        min-width: 160px;
-        min-height: 160px;
     }
 }
