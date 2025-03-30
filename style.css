@@ -1,3 +1,16 @@
+body {
+    background-color: #1B1F3B;
+    max-width: 100%;
+}
+
+.btn-kuning {
+    background-color: #FFD700;
+}
+
+.btn-oren {
+    background-color: #E6B800;
+}
+
 .navbar-collapse {
     display: flex;
     justify-content: center;
@@ -9,6 +22,7 @@
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: transparent;
 }
 
 .navbar-nav .nav-item {
@@ -20,12 +34,11 @@
     padding: 10px;
     text-align: center;
     width: 100px;
-    background-color: #898989;
     color: white;
 }
 
 .navbar {
-    background-color: #f8f9fa;
+    background-color: transparent;
     border-radius: 10px;
     padding: 5px 0;
 }
@@ -57,11 +70,74 @@
     padding: 10px;
     text-align: center;
     width: 100px;
-    background-color: #898989;
     color: white;
     position: absolute;
     bottom: 20px;
     left: 20px;
+}
+
+.slider-container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.card-slider {
+    min-width: 250px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.card-slider img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin-top: 0;
+}
+
+.btn-card-slider {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #333;
 }
 
 @media (max-width: 480px) {
