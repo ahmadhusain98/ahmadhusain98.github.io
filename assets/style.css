@@ -9,7 +9,7 @@ body {
 
 .btn-oren {
     background-color: #E6B800;
-    border-radius: 50px 50px 50px 50px;
+    /* border-radius: 50px 50px 50px 50px; */
     padding-right: 10px;
     padding-left: 10px;
 }
