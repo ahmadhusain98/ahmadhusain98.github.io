@@ -46,5 +46,4 @@ function slide() {
 
 setInterval(slide, 3000);
 
-// Inisialisasi dot aktif
 updateSlider();

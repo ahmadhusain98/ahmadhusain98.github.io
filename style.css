@@ -1,5 +1,5 @@
 body {
-    background-color: #1B1F3B;
+    background-color: #1c1c1c;
     max-width: 100%;
 }
 
@@ -9,11 +9,32 @@ body {
 
 .btn-oren {
     background-color: #E6B800;
+    border-radius: 50px 50px 50px 50px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .navbar-collapse {
     display: flex;
     justify-content: center;
+}
+
+.animate-slide {
+    animation: slide 3s linear infinite;
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 .navbar-nav {
@@ -65,15 +86,25 @@ body {
     position: relative;
 }
 
+.title-hero {
+    padding: 10px;
+    width: 30%;
+    color: white;
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+}
+
 .btn-hero {
-    border-radius: 10px;
     padding: 10px;
     text-align: center;
-    width: 100px;
+    width: 100%;
     color: white;
     position: absolute;
     bottom: 20px;
     left: 20px;
+    display: flex;
+    gap: 5px;
 }
 
 .slider-container {
@@ -119,6 +150,8 @@ body {
     position: absolute;
     bottom: 10px;
     left: 10px;
+    display: flex;
+    gap: 5px;
 }
 
 .slider-dots {
