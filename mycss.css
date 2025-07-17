@@ -234,6 +234,10 @@ body {
     padding-bottom: 50px;
     width: 100%;
     background-color: #B92F9E;
+    display: flex;
+    justify-content: center !important;
+    align-items: center!important;
+    text-align: center!important;
 }
 
 #sec5 .h1 {
@@ -243,7 +247,7 @@ body {
 }
 
 #sec5 .text {
-    font-size: 1.56vw;
+    /* font-size: 1.56vw; */
     font-weight: 700;
     margin-bottom: 20px;
 }

@@ -299,83 +299,87 @@
     </section>
 
     <section id="sec5" class="pt-5 pb-5">
-        <div class="container text-center">
-            <div class="row mb-3">
-                <div class="col-md-8 offset-md-2">
-                    <div class="h1 text-white">Produk unggulan BaoBae</div>
-                    <p class="text text-white">
-                        Kami berkomitmen teguh terhadap kualitas dengan memilih bahan-bahan segar dan terbaik secara cermat, dengan tujuan
-                        menciptakan minuman bertekstur alami dan kaya rasa.
-                    </p>
-                </div>
-            </div>
-            <div class="row mb-3">
+        <div class="container">
+            <div class="row">
                 <div class="col-md-12">
-                    <div class="row mb-3 mt-3">
-                        <div class="col-md-12">
-                            <div class="h2 text-white"><u>CLASSICO</u></div>
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2">
+                            <div class="h1 text-white">Produk unggulan BaoBae</div>
+                            <p class="text2 text-white">
+                                Kami berkomitmen teguh terhadap kualitas dengan memilih bahan-bahan segar dan terbaik secara cermat, dengan tujuan
+                                menciptakan minuman bertekstur alami dan kaya rasa.
+                            </p>
                         </div>
                     </div>
-                    <div class="row g-1">
-                        <div class="col-md-4">
-                            <img src="./img/strawbao.webp" alt="" srcset="" style="width: 300px; height: 300px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                            <br>
-                            <br>
-                            <span class="text-white">Strawberry Bao</span>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="./img/bluebao.webp" alt="" srcset="" style="width: 300px; height: 300px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                            <br>
-                            <br>
-                            <span class="text-white">Blue Bao</span>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="./img/greenbao.webp" alt="" srcset="" style="width: 300px; height: 300px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                            <br>
-                            <br>
-                            <span class="text-white">Green Bao</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mb-3">
-                <div class="col-md-12">
-                    <div class="row mb-3 mt-3">
-                        <div class="col-md-12">
-                            <div class="h2 text-white"><u>MAGNOFIKO</u></div>
-                        </div>
-                    </div>
-                    <div class="row g-1">
-                        <div class="col-md-6">
-                            <img src="./img/miltcoko.webp" alt="" srcset="" style="width: 300px; height: 300px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                            <br>
-                            <br>
-                            <span class="text-white">MeltChoco</span>
-                        </div>
-                        <div class="col-md-6">
-                            <img src="./img/chizy.webp" alt="" srcset="" style="width: 300px; height: 300px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                            <br>
-                            <br>
-                            <span class="text-white">CheezyLicious</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mb-3">
-                <div class="col-md-12">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="row mb-3 mt-3">
                                 <div class="col-md-12">
-                                    <div class="h2 text-white"><u>PERFECTO</u></div>
+                                    <div class="h2 text-white"><u>CLASSICO</u></div>
                                 </div>
                             </div>
                             <div class="row">
+                                <div class="col-md-4 col-4">
+                                    <img src="./img/strawbao.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                                    <br>
+                                    <br>
+                                    <span class="text-white">Strawberry Bao</span>
+                                </div>
+                                <div class="col-md-4 col-4">
+                                    <img src="./img/bluebao.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                                    <br>
+                                    <br>
+                                    <span class="text-white">Blue Bao</span>
+                                </div>
+                                <div class="col-md-4 col-4">
+                                    <img src="./img/greenbao.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                                    <br>
+                                    <br>
+                                    <span class="text-white">Green Bao</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3 justify-content-center">
+                        <div class="col-md-12">
+                            <div class="row mb-3 mt-3">
                                 <div class="col-md-12">
-                                    <img src="./img/prefect.webp" alt="" srcset="" style="width: 300px; height: 300px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                                    <div class="h2 text-white"><u>MAGNOFIKO</u></div>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-md-4 col-4 text-center">
+                                    <img src="./img/miltcoko.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
                                     <br>
                                     <br>
-                                    <span class="text-white">ChickChop</span>
+                                    <span class="text-white">MeltChoco</span>
+                                </div>
+                                <div class="col-md-4 col-4 text-center">
+                                    <img src="./img/chizy.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                                    <br>
+                                    <br>
+                                    <span class="text-white">CheezyLicious</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3 justify-content-center">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="row mb-3 mt-3">
+                                        <div class="col-md-12">
+                                            <div class="h2 text-white"><u>PERFECTO</u></div>
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-4 col-4 text-center">
+                                            <img src="./img/prefect.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                                            <br>
+                                            <br>
+                                            <span class="text-white">ChickChop</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
