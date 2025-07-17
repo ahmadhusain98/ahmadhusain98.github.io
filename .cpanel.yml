@@ -2,6 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/baog7274/public_html/
-    - /bin/cp index.php images $DEPLOYPATH
-    - /bin/cp README.md images $DEPLOYPATH
-    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
