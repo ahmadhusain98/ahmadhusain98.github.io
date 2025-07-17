@@ -305,10 +305,11 @@
                     <div class="row">
                         <div class="col-md-8 offset-md-2">
                             <div class="h1 text-white">Produk unggulan BaoBae</div>
-                            <p class="text2 text-white">
+                            <br>
+                            <span class="text-white">
                                 Kami berkomitmen teguh terhadap kualitas dengan memilih bahan-bahan segar dan terbaik secara cermat, dengan tujuan
                                 menciptakan minuman bertekstur alami dan kaya rasa.
-                            </p>
+                            </span>
                         </div>
                     </div>
                     <div class="row">
