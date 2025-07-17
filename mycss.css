@@ -2,10 +2,15 @@
     --duration: 30s;
     --totalitems: 4;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: #333;
+}
+
+section {
+    padding-top: 200px !important;
 }
 
 .w7 {
@@ -65,8 +70,8 @@ body {
 }
 
 #sec1 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
     width: 100%;
 }
 
@@ -104,8 +109,8 @@ body {
 }
 
 #sec2 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
     width: 100%;
     background-color: #F1F1F1;
 }
@@ -124,8 +129,8 @@ body {
 }
 
 #sec3 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
     width: 100%;
 }
 
@@ -200,8 +205,8 @@ body {
 }
 
 #sec4 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
     width: 100%;
 }
 
@@ -230,8 +235,8 @@ body {
 }
 
 #sec5 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
     width: 100%;
     background-color: #B92F9E;
     display: flex;
@@ -277,8 +282,8 @@ input[type="checkbox"]:checked {
 }
 
 #sec6 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
     width: 100%;
 }
 
@@ -310,8 +315,8 @@ input[type="checkbox"]:checked {
 }
 
 #sec7 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
     max-width: 100%;
     background-color: #F1F1F1;
 }
@@ -332,8 +337,8 @@ input[type="checkbox"]:checked {
 }
 
 footer {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
     background-color: #B92F9E;
     color: #FFFFFF;
 }
@@ -417,10 +422,14 @@ footer .table-responsive {
     btn-hijau {
         padding: 5px !important;
     }
+    
+    section {
+        padding-top: 3rem;   
+    }
 }
 
 @media (min-width: 769px) {
     .btn-hijau {
         padding: 20px !important;
-    }
+    }   
 }

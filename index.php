@@ -17,12 +17,15 @@
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+    <!-- favicon -->
+    <link rel="icon" href="./img/logo_baobae.png" type="image/x-icon">
+
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg bg-color-primary">
+<body id="home">
+    <nav class="navbar navbar-expand-lg bg-color-primary fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">BaoBae.id</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,16 +34,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link text active" aria-current="page" href="#">Beranda</a>
+                        <a class="nav-link text" type="button" id="btnNav1" onclick="na(1)" aria-current="page" href="#home">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text" href="#">Kemitraan</a>
+                        <a class="nav-link text" type="button" id="btnNav2" onclick="na(2)" href="#sec2">Kemitraan</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text" href="#">Tentang Kami</a>
+                        <a class="nav-link text" type="button" id="btnNav3" onclick="na(3)" href="#sec3">Tentang Kami</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text" href="#">Program</a>
+                        <a class="nav-link text" type="button" id="btnNav4" onclick="na(4)" href="#sec7">Program</a>
                     </li>
                 </ul>
             </div>
@@ -558,10 +561,19 @@
         </div>
     </footer>
 
-    <!-- myjs -->
-    <script src="./myjs.js"></script>
-
     <script>
+        na(1);
+
+        function na(param) {
+            // Remove active class from all buttons
+            for (let i = 1; i <= 4; i++) {
+                $(`#btnNav${i}`).removeClass('active');
+            }
+
+            // Add active class to selected button 
+            $(`#btnNav${param || 4}`).addClass('active');
+        }
+
         ct(1);
 
         function ct(param) {
@@ -576,6 +588,9 @@
             $('#content' + param).show();
         }
     </script>
+
+    <!-- myjs -->
+    <script src="./myjs.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
