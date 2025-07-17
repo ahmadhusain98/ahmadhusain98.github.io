@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BaoBae.id</title>
     <!-- bootstrap 5.3 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -16,19 +16,22 @@
 
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-color-primary">
         <div class="container">
             <a class="navbar-brand" href="#">BaoBae.id</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"  aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Beranda</a>
+                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Kemitraan</a>
@@ -54,7 +57,7 @@
                     </p>
                     <button type="button" class="btn btn-hijau" style="border-radius: 50px;">Tentang Kami</button>
                 </div>
-                <div class="col-md-6 col-12 position-relative">
+                <div class="col-md-6 d-flex justify-content-center col-12 position-absolute d-none d-md-block end-0">
                     <img src="./assets/img/image.png" id="img-s1">
                 </div>
             </div>
@@ -114,18 +117,18 @@
     <section id="sec3" class="pt-5 pb-5">
         <div class="container">
             <div class="row g-5">
-                <div class="col-md-4">
-                    <button type="button" class="btn btn-accordion d-flex justify-content-between align-items-center w-100 active">Branding Baobae.id <i class="fa-solid fa-play"></i></button>
-                    <button type="button" class="btn btn-accordion d-flex justify-content-between align-items-center w-100">Desain Toko <i class="fa-solid fa-play"></i></button>
-                    <button type="button" class="btn btn-accordion d-flex justify-content-between align-items-center w-100">Marketing Support <i class="fa-solid fa-play"></i></button>
-                    <button type="button" class="btn btn-accordion d-flex justify-content-between align-items-center w-100">Training Operasional <i class="fa-solid fa-play"></i></button>
-                    <button type="button" class="btn btn-accordion d-flex justify-content-between align-items-center w-100">Survei Lokasi <i class="fa-solid fa-play"></i></button>
-                    <button type="button" class="btn btn-accordion d-flex justify-content-between align-items-center w-100">User Guide <i class="fa-solid fa-play"></i></button>
-                    <button type="button" class="btn btn-accordion d-flex justify-content-between align-items-center w-100">Perencanaan Event <i class="fa-solid fa-play"></i></button>
-                    <button type="button" class="btn btn-accordion d-flex justify-content-between align-items-center w-100">Management Logistic <i class="fa-solid fa-play"></i></button>
+                <div class="col-md-4 col-4">
+                    <button type="button" id="btn1" class="btn btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(1)">Branding Baobae.id <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn2" class="btn btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(2)">Desain Toko <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn3" class="btn btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(3)">Marketing Support <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn4" class="btn btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(4)">Training Operasional <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn5" class="btn btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(5)">Survei Lokasi <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn6" class="btn btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(6)">User Guide <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn7" class="btn btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(7)">Perencanaan Event <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn8" class="btn btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(8)">Management Logistic <i class="fa-solid fa-play"></i></button>
                 </div>
-                <div class="col-md-8">
-                    <div class="card">
+                <div class="col-md-8 col-8">
+                    <div class="card h-100" id="content1">
                         <div class="card-body text-center">
                             <div class="content-accordion">
                                 <img src="./assets/img/image_accordion.webp" alt="" srcset="" class="img-s3 mb-3">
@@ -136,10 +139,89 @@
                             </div>
                         </div>
                     </div>
+                    <div class="card h-100" id="content2">
+                        <div class="card-body text-center">
+                            <div class="content-accordion">
+                                <img src="./assets/img/g2.webp" alt="" srcset="" class="img-s3 mb-3">
+                                <div class="h3 mb-3">Desain Toko</div>
+                                <p class="text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card h-100" id="content3">
+                        <div class="card-body text-center">
+                            <div class="content-accordion">
+                                <img src="./assets/img/g1.webp" alt="" srcset="" class="img-s3 mb-3">
+                                <div class="h3 mb-3">Marketing Support</div>
+                                <p class="text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card h-100" id="content4">
+                        <div class="card-body text-center">
+                            <div class="content-accordion">
+                                <img src="./assets/img/g3.webp" alt="" srcset="" class="img-s3 mb-3">
+                                <div class="h3 mb-3">Training Operasional</div>
+                                <p class="text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card h-100" id="content5">
+                        <div class="card-body text-center">
+                            <div class="content-accordion">
+                                <img src="./assets/img/g6.webp" alt="" srcset="" class="img-s3 mb-3">
+                                <div class="h3 mb-3">Survei Lokasi</div>
+                                <p class="text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card h-100" id="content6">
+                        <div class="card-body text-center">
+                            <div class="content-accordion">
+                                <img src="./assets/img/g7.webp" alt="" srcset="" class="img-s3 mb-3">
+                                <div class="h3 mb-3">User Guide</div>
+                                <p class="text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card h-100" id="content7">
+                        <div class="card-body text-center">
+                            <div class="content-accordion">
+                                <img src="./assets/img/g10.webp" alt="" srcset="" class="img-s3 mb-3">
+                                <div class="h3 mb-3">Perencanaan Event</div>
+                                <p class="text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card h-100" id="content8">
+                        <div class="card-body text-center">
+                            <div class="content-accordion">
+                                <img src="./assets/img/g9.webp" alt="" srcset="" class="img-s3 mb-3">
+                                <div class="h3 mb-3">Management Logistic</div>
+                                <p class="text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <hr class="shadow">
 
     <section id="sec4">
         <div class="container">
@@ -167,7 +249,7 @@
                                     </div>
                                     <div class="row mb-3">
                                         <div class="col-md-6">
-                                            <input type="number" class="form-control" name="nohp" id="nohp" placeholder="No HP">
+                                            <input type="number" class="form-control mb-3" name="nohp" id="nohp" placeholder="No HP">
                                         </div>
                                         <div class="col-md-6">
                                             <input type="email" class="form-control" name="email" id="email" placeholder="Email">
@@ -178,7 +260,7 @@
                                             <table>
                                                 <tr>
                                                     <td style="width: 7%;">
-                                                        <input type="checkbox" name="c_email" id="c_email" class="form-control">
+                                                        <input type="checkbox" name="c_email" id="c_email" class="form-control" style="width: 30px; height: 30px">
                                                     </td>
                                                     <td style="width: 93%;">
                                                         <span>Saya hanya ingin dihubungi melalui pesan whatsapp atau kontak email saja</span>
@@ -354,7 +436,8 @@
                 </div>
                 <div class="col-md-6">
                     <div class="h2 fw-bold">
-                        <span style="text-decoration: underline; text-decoration-color: purple; text-decoration-thickness: 5px;">FLEKSIBEL DAN CEPAT</span></div>
+                        <span style="text-decoration: underline; text-decoration-color: purple; text-decoration-thickness: 5px;">FLEKSIBEL DAN CEPAT</span>
+                    </div>
                     <br>
                     <p class="text">
                         Bergerak fleksibel dengan daya jang kau luas dan cepat, menjangkau kon sumen secara langsung, omzet berli pat daripada
@@ -379,29 +462,59 @@
             </div>
         </div>
         <div class="row gallery">
-            <div class="col-md-12">
+            <div class="col-12 justify-content-center">
                 <div class="row">
-                    <div class="col-md-12 w-100 d-flex">
-                        <img src="./assets/img/g1.webp" style="height: 345px;" class="p-1" alt="Gambar 1" onmouseover="mouseInG(this)" onmouseout="mouseOutG(this)">
-                        <img src="./assets/img/g2.webp" style="height: 345px;" class="p-1" alt="Gambar 2" onmouseover="mouseInG(this)" onmouseout="mouseOutG(this)">
-                        <img src="./assets/img/g3.webp" style="height: 345px;" class="p-1" alt="Gambar 3" onmouseover="mouseInG(this)" onmouseout="mouseOutG(this)">
-                        <img src="./assets/img/g4.webp" style="height: 345px;" class="p-1" alt="Gambar 4" onmouseover="mouseInG(this)" onmouseout="mouseOutG(this)">
+                    <div class="col-12">
+                        <div class="wrapper">
+                            <div class="img-item-r" style="--i:1">
+                                <img src="./assets/img/g1.webp" class="img-fluid gallery-img" alt="Gambar 1">
+                            </div>
+                            <div class="img-item-r" style="--i:2">
+                                <img src="./assets/img/g2.webp" class="img-fluid gallery-img" alt="Gambar 2">
+                            </div>
+                            <div class="img-item-r" style="--i:3">
+                                <img src="./assets/img/g3.webp" class="img-fluid gallery-img" alt="Gambar 3">
+                            </div>
+                            <div class="img-item-r" style="--i:4">
+                                <img src="./assets/img/g6.webp" class="img-fluid gallery-img" alt="Gambar 6">
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row gallery">
-                    <div class="col-md-12 w-100 d-flex">
-                        <img src="./assets/img/g5.webp" style="height: 345px;" class="p-1" alt="Gambar 5" onmouseover="mouseInG(this)" onmouseout="mouseOutG(this)">
-                        <img src="./assets/img/g6.webp" style="height: 345px;" class="p-1" alt="Gambar 6" onmouseover="mouseInG(this)" onmouseout="mouseOutG(this)">
-                        <img src="./assets/img/g7.webp" style="height: 345px;" class="p-1" alt="Gambar 7" onmouseover="mouseInG(this)" onmouseout="mouseOutG(this)">
-                        <img src="./assets/img/g8.webp" style="height: 345px;" class="p-1" alt="Gambar 8" onmouseover="mouseInG(this)" onmouseout="mouseOutG(this)">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="wrapper">
+                            <div class="img-item-l" style="--i:1">
+                                <img src="./assets/img/g6.webp" class="img-fluid gallery-img" alt="Gambar 6">
+                            </div>
+                            <div class="img-item-l" style="--i:2">
+                                <img src="./assets/img/g3.webp" class="img-fluid gallery-img" alt="Gambar 3">
+                            </div>
+                            <div class="img-item-l" style="--i:3">
+                                <img src="./assets/img/g2.webp" class="img-fluid gallery-img" alt="Gambar 2">
+                            </div>
+                            <div class="img-item-l" style="--i:4">
+                                <img src="./assets/img/g1.webp" class="img-fluid gallery-img" alt="Gambar 1">
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row gallery">
-                    <div class="col-md-12 w-100 d-flex">
-                        <img src="./assets/img/g9.webp" style="height: 345px;" class="p-1" alt="Gambar 9" onmouseover="mouseInG(this)" onmouseout="mouseOutG(this)">
-                        <img src="./assets/img/g10.webp" style="height: 345px;" class="p-1" alt="Gambar 10" onmouseover="mouseInG(this)" onmouseout="mouseOutG(this)">
-                        <img src="./assets/img/g11.webp" style="height: 345px;" class="p-1" alt="Gambar 11" onmouseover="mouseInG(this)" onmouseout="mouseOutG(this)">
-                        <img src="./assets/img/g12.webp" style="height: 345px;" class="p-1" alt="Gambar 12" onmouseover="mouseInG(this)" onmouseout="mouseOutG(this)">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="wrapper">
+                            <div class="img-item-r" style="--i:1">
+                                <img src="./assets/img/g1.webp" class="img-fluid gallery-img" alt="Gambar 1">
+                            </div>
+                            <div class="img-item-r" style="--i:2">
+                                <img src="./assets/img/g2.webp" class="img-fluid gallery-img" alt="Gambar 2">
+                            </div>
+                            <div class="img-item-r" style="--i:3">
+                                <img src="./assets/img/g3.webp" class="img-fluid gallery-img" alt="Gambar 3">
+                            </div>
+                            <div class="img-item-r" style="--i:4">
+                                <img src="./assets/img/g6.webp" class="img-fluid gallery-img" alt="Gambar 6">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -411,7 +524,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-8">
                     <div class="table-responsive">
                         <table width="100%" cellpadding="10px">
                             <tr>
@@ -433,19 +546,33 @@
                         </table>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-4">
                     <img src="./assets/img/logo_baobae.png" style="width: 173px; height: 173px;" class="float-end">
                 </div>
             </div>
         </div>
     </footer>
-    
+
     <!-- myjs -->
     <script src="./assets/js/myjs.js"></script>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+    <script>
+        ct(1);
+
+        function ct(param) {
+            // Remove active class from all buttons
+            for (let i = 1; i <= 8; i++) {
+                document.getElementById(`btn${i}`).classList.remove('active');
+                $('#content' + i).hide();
+            }
+
+            // Add active class to selected button
+            document.getElementById(`btn${param || 8}`).classList.add('active');
+            $('#content' + param).show();
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 
 </html>
