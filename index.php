@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- mycss -->
-    <link rel="stylesheet" href="./assets/css/mycss.css">
+    <link rel="stylesheet" href="./mycss.css">
 
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -58,7 +58,7 @@
                     <button type="button" class="btn btn-hijau" style="border-radius: 50px;">Tentang Kami</button>
                 </div>
                 <div class="col-md-6 d-flex justify-content-center col-12 position-absolute d-none d-md-block end-0">
-                    <img src="./assets/img/image.png" id="img-s1">
+                    <img src="./img/image.png" id="img-s1">
                 </div>
             </div>
         </div>
@@ -131,7 +131,7 @@
                     <div class="card h-100" id="content1">
                         <div class="card-body text-center">
                             <div class="content-accordion">
-                                <img src="./assets/img/image_accordion.webp" alt="" srcset="" class="img-s3 mb-3">
+                                <img src="./img/image_accordion.webp" alt="" srcset="" class="img-s3 mb-3">
                                 <div class="h3 mb-3">Branding Baobae.id</div>
                                 <p class="text">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
@@ -142,7 +142,7 @@
                     <div class="card h-100" id="content2">
                         <div class="card-body text-center">
                             <div class="content-accordion">
-                                <img src="./assets/img/g2.webp" alt="" srcset="" class="img-s3 mb-3">
+                                <img src="./img/g2.webp" alt="" srcset="" class="img-s3 mb-3">
                                 <div class="h3 mb-3">Desain Toko</div>
                                 <p class="text">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
@@ -153,7 +153,7 @@
                     <div class="card h-100" id="content3">
                         <div class="card-body text-center">
                             <div class="content-accordion">
-                                <img src="./assets/img/g1.webp" alt="" srcset="" class="img-s3 mb-3">
+                                <img src="./img/g1.webp" alt="" srcset="" class="img-s3 mb-3">
                                 <div class="h3 mb-3">Marketing Support</div>
                                 <p class="text">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
@@ -164,7 +164,7 @@
                     <div class="card h-100" id="content4">
                         <div class="card-body text-center">
                             <div class="content-accordion">
-                                <img src="./assets/img/g3.webp" alt="" srcset="" class="img-s3 mb-3">
+                                <img src="./img/g3.webp" alt="" srcset="" class="img-s3 mb-3">
                                 <div class="h3 mb-3">Training Operasional</div>
                                 <p class="text">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
@@ -175,7 +175,7 @@
                     <div class="card h-100" id="content5">
                         <div class="card-body text-center">
                             <div class="content-accordion">
-                                <img src="./assets/img/g6.webp" alt="" srcset="" class="img-s3 mb-3">
+                                <img src="./img/g6.webp" alt="" srcset="" class="img-s3 mb-3">
                                 <div class="h3 mb-3">Survei Lokasi</div>
                                 <p class="text">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
@@ -186,7 +186,7 @@
                     <div class="card h-100" id="content6">
                         <div class="card-body text-center">
                             <div class="content-accordion">
-                                <img src="./assets/img/g7.webp" alt="" srcset="" class="img-s3 mb-3">
+                                <img src="./img/g7.webp" alt="" srcset="" class="img-s3 mb-3">
                                 <div class="h3 mb-3">User Guide</div>
                                 <p class="text">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
@@ -197,7 +197,7 @@
                     <div class="card h-100" id="content7">
                         <div class="card-body text-center">
                             <div class="content-accordion">
-                                <img src="./assets/img/g10.webp" alt="" srcset="" class="img-s3 mb-3">
+                                <img src="./img/g10.webp" alt="" srcset="" class="img-s3 mb-3">
                                 <div class="h3 mb-3">Perencanaan Event</div>
                                 <p class="text">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
@@ -208,7 +208,7 @@
                     <div class="card h-100" id="content8">
                         <div class="card-body text-center">
                             <div class="content-accordion">
-                                <img src="./assets/img/g9.webp" alt="" srcset="" class="img-s3 mb-3">
+                                <img src="./img/g9.webp" alt="" srcset="" class="img-s3 mb-3">
                                 <div class="h3 mb-3">Management Logistic</div>
                                 <p class="text">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
@@ -318,19 +318,19 @@
                     </div>
                     <div class="row g-1">
                         <div class="col-md-4">
-                            <img src="./assets/img/strawbao.webp" alt="" srcset="" style="width: 300px; height: 300px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                            <img src="./img/strawbao.webp" alt="" srcset="" style="width: 300px; height: 300px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
                             <br>
                             <br>
                             <span class="text-white">Strawberry Bao</span>
                         </div>
                         <div class="col-md-4">
-                            <img src="./assets/img/bluebao.webp" alt="" srcset="" style="width: 300px; height: 300px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                            <img src="./img/bluebao.webp" alt="" srcset="" style="width: 300px; height: 300px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
                             <br>
                             <br>
                             <span class="text-white">Blue Bao</span>
                         </div>
                         <div class="col-md-4">
-                            <img src="./assets/img/greenbao.webp" alt="" srcset="" style="width: 300px; height: 300px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                            <img src="./img/greenbao.webp" alt="" srcset="" style="width: 300px; height: 300px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
                             <br>
                             <br>
                             <span class="text-white">Green Bao</span>
@@ -347,13 +347,13 @@
                     </div>
                     <div class="row g-1">
                         <div class="col-md-6">
-                            <img src="./assets/img/miltcoko.webp" alt="" srcset="" style="width: 300px; height: 300px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                            <img src="./img/miltcoko.webp" alt="" srcset="" style="width: 300px; height: 300px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
                             <br>
                             <br>
                             <span class="text-white">MeltChoco</span>
                         </div>
                         <div class="col-md-6">
-                            <img src="./assets/img/chizy.webp" alt="" srcset="" style="width: 300px; height: 300px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                            <img src="./img/chizy.webp" alt="" srcset="" style="width: 300px; height: 300px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
                             <br>
                             <br>
                             <span class="text-white">CheezyLicious</span>
@@ -372,7 +372,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <img src="./assets/img/prefect.webp" alt="" srcset="" style="width: 300px; height: 300px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                                    <img src="./img/prefect.webp" alt="" srcset="" style="width: 300px; height: 300px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
                                     <br>
                                     <br>
                                     <span class="text-white">ChickChop</span>
@@ -467,16 +467,16 @@
                     <div class="col-12">
                         <div class="wrapper">
                             <div class="img-item-r" style="--i:1">
-                                <img src="./assets/img/g1.webp" class="img-fluid gallery-img" alt="Gambar 1">
+                                <img src="./img/g1.webp" class="img-fluid gallery-img" alt="Gambar 1">
                             </div>
                             <div class="img-item-r" style="--i:2">
-                                <img src="./assets/img/g2.webp" class="img-fluid gallery-img" alt="Gambar 2">
+                                <img src="./img/g2.webp" class="img-fluid gallery-img" alt="Gambar 2">
                             </div>
                             <div class="img-item-r" style="--i:3">
-                                <img src="./assets/img/g3.webp" class="img-fluid gallery-img" alt="Gambar 3">
+                                <img src="./img/g3.webp" class="img-fluid gallery-img" alt="Gambar 3">
                             </div>
                             <div class="img-item-r" style="--i:4">
-                                <img src="./assets/img/g6.webp" class="img-fluid gallery-img" alt="Gambar 6">
+                                <img src="./img/g6.webp" class="img-fluid gallery-img" alt="Gambar 6">
                             </div>
                         </div>
                     </div>
@@ -485,16 +485,16 @@
                     <div class="col-12">
                         <div class="wrapper">
                             <div class="img-item-l" style="--i:1">
-                                <img src="./assets/img/g6.webp" class="img-fluid gallery-img" alt="Gambar 6">
+                                <img src="./img/g6.webp" class="img-fluid gallery-img" alt="Gambar 6">
                             </div>
                             <div class="img-item-l" style="--i:2">
-                                <img src="./assets/img/g3.webp" class="img-fluid gallery-img" alt="Gambar 3">
+                                <img src="./img/g3.webp" class="img-fluid gallery-img" alt="Gambar 3">
                             </div>
                             <div class="img-item-l" style="--i:3">
-                                <img src="./assets/img/g2.webp" class="img-fluid gallery-img" alt="Gambar 2">
+                                <img src="./img/g2.webp" class="img-fluid gallery-img" alt="Gambar 2">
                             </div>
                             <div class="img-item-l" style="--i:4">
-                                <img src="./assets/img/g1.webp" class="img-fluid gallery-img" alt="Gambar 1">
+                                <img src="./img/g1.webp" class="img-fluid gallery-img" alt="Gambar 1">
                             </div>
                         </div>
                     </div>
@@ -503,16 +503,16 @@
                     <div class="col-12">
                         <div class="wrapper">
                             <div class="img-item-r" style="--i:1">
-                                <img src="./assets/img/g1.webp" class="img-fluid gallery-img" alt="Gambar 1">
+                                <img src="./img/g1.webp" class="img-fluid gallery-img" alt="Gambar 1">
                             </div>
                             <div class="img-item-r" style="--i:2">
-                                <img src="./assets/img/g2.webp" class="img-fluid gallery-img" alt="Gambar 2">
+                                <img src="./img/g2.webp" class="img-fluid gallery-img" alt="Gambar 2">
                             </div>
                             <div class="img-item-r" style="--i:3">
-                                <img src="./assets/img/g3.webp" class="img-fluid gallery-img" alt="Gambar 3">
+                                <img src="./img/g3.webp" class="img-fluid gallery-img" alt="Gambar 3">
                             </div>
                             <div class="img-item-r" style="--i:4">
-                                <img src="./assets/img/g6.webp" class="img-fluid gallery-img" alt="Gambar 6">
+                                <img src="./img/g6.webp" class="img-fluid gallery-img" alt="Gambar 6">
                             </div>
                         </div>
                     </div>
@@ -547,14 +547,14 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-4">
-                    <img src="./assets/img/logo_baobae.png" style="width: 173px; height: 173px;" class="float-end">
+                    <img src="./img/logo_baobae.png" style="width: 173px; height: 173px;" class="float-end">
                 </div>
             </div>
         </div>
     </footer>
 
     <!-- myjs -->
-    <script src="./assets/js/myjs.js"></script>
+    <script src="./myjs.js"></script>
 
     <script>
         ct(1);
