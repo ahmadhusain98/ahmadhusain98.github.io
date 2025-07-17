@@ -31,16 +31,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                        <a class="nav-link text active" aria-current="page" href="#">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Kemitraan</a>
+                        <a class="nav-link text" href="#">Kemitraan</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Tentang Kami</a>
+                        <a class="nav-link text" href="#">Tentang Kami</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Program</a>
+                        <a class="nav-link text" href="#">Program</a>
                     </li>
                 </ul>
             </div>
@@ -118,99 +118,99 @@
         <div class="container">
             <div class="row g-5">
                 <div class="col-md-4 col-4">
-                    <button type="button" id="btn1" class="btn btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(1)">Branding Baobae.id <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn2" class="btn btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(2)">Desain Toko <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn3" class="btn btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(3)">Marketing Support <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn4" class="btn btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(4)">Training Operasional <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn5" class="btn btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(5)">Survei Lokasi <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn6" class="btn btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(6)">User Guide <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn7" class="btn btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(7)">Perencanaan Event <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn8" class="btn btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(8)">Management Logistic <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn1" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(1)">Branding Baobae.id <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn2" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(2)">Desain Toko <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn3" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(3)">Marketing Support <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn4" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(4)">Training Operasional <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn5" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(5)">Survei Lokasi <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn6" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(6)">User Guide <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn7" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(7)">Perencanaan Event <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn8" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(8)">Management Logistic <i class="fa-solid fa-play"></i></button>
                 </div>
                 <div class="col-md-8 col-8">
                     <div class="card h-100" id="content1">
-                        <div class="card-body text-center">
+                        <div class="card-body text-center text2">
                             <div class="content-accordion">
                                 <img src="./img/image_accordion.webp" alt="" srcset="" class="img-s3 mb-3">
                                 <div class="h3 mb-3">Branding Baobae.id</div>
-                                <p class="text">
+                                <p>
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="card h-100" id="content2">
-                        <div class="card-body text-center">
+                        <div class="card-body text-center text2">
                             <div class="content-accordion">
                                 <img src="./img/g2.webp" alt="" srcset="" class="img-s3 mb-3">
                                 <div class="h3 mb-3">Desain Toko</div>
-                                <p class="text">
+                                <p>
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="card h-100" id="content3">
-                        <div class="card-body text-center">
+                        <div class="card-body text-center text2">
                             <div class="content-accordion">
                                 <img src="./img/g1.webp" alt="" srcset="" class="img-s3 mb-3">
                                 <div class="h3 mb-3">Marketing Support</div>
-                                <p class="text">
+                                <p>
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="card h-100" id="content4">
-                        <div class="card-body text-center">
+                        <div class="card-body text-center text2">
                             <div class="content-accordion">
                                 <img src="./img/g3.webp" alt="" srcset="" class="img-s3 mb-3">
                                 <div class="h3 mb-3">Training Operasional</div>
-                                <p class="text">
+                                <p>
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="card h-100" id="content5">
-                        <div class="card-body text-center">
+                        <div class="card-body text-center text2">
                             <div class="content-accordion">
                                 <img src="./img/g6.webp" alt="" srcset="" class="img-s3 mb-3">
                                 <div class="h3 mb-3">Survei Lokasi</div>
-                                <p class="text">
+                                <p>
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="card h-100" id="content6">
-                        <div class="card-body text-center">
+                        <div class="card-body text-center text2">
                             <div class="content-accordion">
                                 <img src="./img/g7.webp" alt="" srcset="" class="img-s3 mb-3">
                                 <div class="h3 mb-3">User Guide</div>
-                                <p class="text">
+                                <p>
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="card h-100" id="content7">
-                        <div class="card-body text-center">
+                        <div class="card-body text-center text2">
                             <div class="content-accordion">
                                 <img src="./img/g10.webp" alt="" srcset="" class="img-s3 mb-3">
                                 <div class="h3 mb-3">Perencanaan Event</div>
-                                <p class="text">
+                                <p>
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="card h-100" id="content8">
-                        <div class="card-body text-center">
+                        <div class="card-body text-center text2">
                             <div class="content-accordion">
                                 <img src="./img/g9.webp" alt="" srcset="" class="img-s3 mb-3">
                                 <div class="h3 mb-3">Management Logistic</div>
-                                <p class="text">
+                                <p>
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
                                 </p>
                             </div>
