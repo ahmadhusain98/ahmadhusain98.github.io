@@ -51,23 +51,23 @@
     </nav>
 
     <section id="sec1">
-        <div class="container">
+        <div class="container pt-5 pb-5">
             <div class="row">
                 <div class="col-md-6 col-12 my-auto">
                     <div class="w7 h1 text-color-primary">BaoBae.id</div>
                     <p class="text">
                         Slamat datang Calon Mitra Masa Depan
                     </p>
-                    <button type="button" class="btn btn-hijau" style="border-radius: 50px;">Tentang Kami</button>
+                    <button type="button" id="btnSec1" class="btn btn-hijau">Tentang Kami</button>
                 </div>
                 <div class="col-md-6 d-flex justify-content-center col-12 position-absolute d-none d-md-block end-0">
-                    <img src="./img/image.png" id="img-s1">
+                    <img src="./img/sec1.webp" id="img-s1">
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="sec2" class="pt-5 pb-5">
+    <section id="sec2">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -76,34 +76,40 @@
                             <div class="card-body p-5">
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <button type="button" class="btn btn-hijau mb-3" style="border-radius: 10px;">Prosedur Kemitraan</button>
-                                                <p class="text text-white mb-3">
-                                                    Mari pelajari cara bermitra dengan kami dan beberapa penjelasannya
-                                                </p>
+                                        <div class="card h-100" style="background-color: transparent; border: none;">
+                                            <div class="card-header" style="background-color: transparent; border: none;">
+                                                <button type="button" class="btn btn-sec2 btn-hijau mb-3" style="border-radius: 10px;">Prosedur Kemitraan</button>
+                                            </div>
+                                            <div class="card-body" style="background-color: transparent; border: none;">
+                                                <span class="text-white">Mari pelajari cara bermitra dengan kami dan beberapa penjelasannya</span>
+                                            </div>
+                                            <div class="card-footer" style="background-color: transparent; border: none;">
                                                 <a href="#" class="text-decoration-none text-white"><i>Pelajari lebih lanjut ></i></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <button type="button" class="btn btn-hijau mb-3" style="border-radius: 10px;">Syarat Kemitraan</button>
-                                                <p class="text text-white mb-3">
-                                                    Berikut beberapa syarat Kemitraan kami
-                                                </p>
+                                        <div class="card h-100" style="background-color: transparent; border: none;">
+                                            <div class="card-header" style="background-color: transparent; border: none;">
+                                                <button type="button" class="btn btn-sec2 btn-hijau mb-3" style="border-radius: 10px;">Syarat Kemitraan</button>
+                                            </div>
+                                            <div class="card-body" style="background-color: transparent; border: none;">
+                                                <span class="text-white">Berikut beberapa syarat Kemitraan kami</span>
+                                            </div>
+                                            <div class="card-footer" style="background-color: transparent; border: none;">
                                                 <a href="#" class="text-decoration-none text-white"><i>Pelajari lebih lanjut ></i></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <button type="button" class="btn btn-hijau mb-3" style="border-radius: 10px;">Sistem Kerjasama</button>
-                                                <p class="text text-white mb-3">
-                                                    System kerja sama yang mudah dan Profesional
-                                                </p>
+                                        <div class="card h-100" style="background-color: transparent; border: none;">
+                                            <div class="card-header" style="background-color: transparent; border: none;">
+                                                <button type="button" class="btn btn-sec2 btn-hijau mb-3" style="border-radius: 10px;">Sistem Kerjasama</button>
+                                            </div>
+                                            <div class="card-body" style="background-color: transparent; border: none;">
+                                                <span class="text-white">System kerja sama yang mudah dan Profesional</span>
+                                            </div>
+                                            <div class="card-footer" style="background-color: transparent; border: none;">
                                                 <a href="#" class="text-decoration-none text-white"><i>Pelajari lebih lanjut ></i></a>
                                             </div>
                                         </div>
@@ -117,17 +123,17 @@
         </div>
     </section>
 
-    <section id="sec3" class="pt-5 pb-5">
+    <section id="sec3">
         <div class="container">
             <div class="row g-5">
                 <div class="col-md-4 col-4">
-                    <button type="button" id="btn1" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(1)">Tentang Baobae.id <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn2" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(2)">Cabang Kami <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn3" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(3)">Kilas Balik <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn4" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(4)">Ruang Produksi <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn5" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(5)">Dormitory / Asrama <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn6" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(6)">Konsep Kemitraan <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn7" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(7)">Financial Projection <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn1" class="btn text-color-primary text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(1)">Tentang Baobae.id <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn2" class="btn text-color-primary text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(2)">Cabang Kami <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn3" class="btn text-color-primary text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(3)">Kilas Balik <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn4" class="btn text-color-primary text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(4)">Ruang Produksi <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn5" class="btn text-color-primary text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(5)">Dormitory / Asrama <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn6" class="btn text-color-primary text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(6)">Paket Kemitraan <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn7" class="btn text-color-primary text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(7)">Financial Projection <i class="fa-solid fa-play"></i></button>
                 </div>
                 <div class="col-md-8 col-8">
                     <div class="card h-100" id="content1">
@@ -210,15 +216,29 @@
                     <div class="card h-100" id="content6">
                         <div class="card-body text-center text2">
                             <div class="content-accordion">
-                                <img src="./img/ac6.webp" alt="" srcset="" class="img-s3 mb-3">
-                                <div class="h3 mb-3">Konsep Kemitraan</div>
+                                <div class="h3 mb-3"><button class="btn bg-color-primary text-white w-100 fw-bold" style="border-radius: 0px !important;">PAKET KEMITRAAN</button></div>
                                 <p>
                                 <ul style="text-align: left !important;">
-                                    <li>Lantai dan Dinding mudah dibersihkan</li>
-                                    <li>Jalur air bersih</li>
-                                    <li>Tempat cuci alat + jalur air Pembuangan</li>
-                                    <li>Sirkulasi udara lancar</li>
-                                    <li>Pencahayaan vaik ( tidak lembab )</li>
+                                    <li class="text-color-primary">Perlengkapan Pembuatan Produk</li>
+                                    <li>+ Pelatihan 3 orang tenaga produksi</li>
+                                    <li class="text-color-primary">Suplai bahan baku</li>
+                                    <li>+ bahan baku bulan pertama</li>
+                                    <li class="text-color-primary">Perlengkapan Penjualan Produk</li>
+                                    <li>+ Pelatihan 5 orang Salesman</li>
+                                    <li class="text-color-primary">Tim Perintis Penjualan</li>
+                                    <li>(Usaha menghasilkan dari bulan pertama)</li>
+                                    <li class="text-color-primary">Sewa tempat tahun pertama</li>
+                                    <li>+ setup tempat produksi dan asrama karyawan</li>
+                                    <li class="text-color-primary">Seragam dan Media Promosi</li>
+                                    <li class="text-color-primary">SOP Book & Komputer Administrasi</li>
+                                    <li>+ Pelatihan Manajerial</li>
+                                    <li class="text-color-primary">Standar desain Tempat Produksi</li>
+                                    <li class="text-color-primary">Freezer</li>
+                                    <li class="text-color-primary">Alat kebersihan dan Perlengkapan Asrama Karyawan</li>
+                                    <li class="text-color-primary">Survey dan Pemetaan wilayah </li>
+                                    <li class="text-color-primary">Pembagian area salesman</li>
+                                    <li class="text-color-primary">Dukungan marketing online</li>
+                                    <li class="text-color-primary">Biaya Kemitraan</li>
                                 </ul>
                                 </p>
                             </div>
@@ -227,17 +247,34 @@
                     <div class="card h-100" id="content7">
                         <div class="card-body text-center text2">
                             <div class="content-accordion">
-                                <img src="./img/ac7.webp" alt="" srcset="" class="img-s3 mb-3">
-                                <div class="h3 mb-3">Financial Projection</div>
-                                <p>
+                                <div class="h3 mb-3 text-color-primary">Financial Projection</div>
+                                <div class="h3 mb-3 text-color-primary text-start fw-bold">SKENARIO PENJUALAN (1 BULAN)</div>
+                                <button class="btn bg-color-primary text-white w-100 fw-bold" style="border-radius: 0px !important;"><span class="float-start">MODAL AWAL</span> <span class="float-end">300,000,000</span></button>
+                                <hr style="border: 2px solid #98CD03;">
                                 <ul style="text-align: left !important;">
-                                    <li>Lantai dan Dinding mudah dibersihkan</li>
-                                    <li>Jalur air bersih</li>
-                                    <li>Tempat cuci alat + jalur air Pembuangan</li>
-                                    <li>Sirkulasi udara lancar</li>
-                                    <li>Pencahayaan vaik ( tidak lembab )</li>
+                                    <li>Rata-rata penjualan per hari <span class="float-end"><?= number_format(560) ?></span></li>
+                                    <li>Rata-rata nominal transaksi <span class="float-end"><?= number_format(5600) ?></span></li>
+                                    <li>Jumlah hari dalam sebulan <span class="float-end"><?= number_format(30) ?></span></li>
                                 </ul>
-                                </p>
+                                <hr style="border: 2px solid #98CD03;">
+                                <ul style="text-align: left !important;">
+                                    <li>Total Penjualan dalam sebulan <span class="float-end"><?= number_format(94080000) ?></span></li>
+                                </ul>
+                                <br>
+                                <ul style="text-align: left !important;">
+                                    <li>Harga Pokok Penjualan (23%) <span class="float-end"><?= number_format(21638400) ?></span></li>
+                                    <li>Operasional + Komisi Penjualan (33%) <span class="float-end"><?= number_format(31046400) ?></span></li>
+                                    <li>Gaji Karyawan + Biaya Penyusutan <span class="float-end"><?= number_format(28000000) ?></span></li>
+                                </ul>
+                                <hr style="border: 2px solid #98CD03;">
+                                <ul style="text-align: left !important;">
+                                    <li>Laba Bersih <span class="float-end"><?= number_format(13395200) ?></span></li>
+                                </ul>
+                                <br>
+                                <ul style="text-align: left !important;">
+                                    <li>Break Even Point (pcs/hari) <span class="float-end"><?= number_format(347) ?></span></li>
+                                    <li>ROI per tahun <span class="float-end"><?= number_format(45) . '%' ?></span></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -264,7 +301,7 @@
                     <div class="card for-sec4">
                         <div class="card-body">
                             <form action="">
-                                <div class="form-group">
+                                <div class="form-group form-sec4">
                                     <div class="row mb-3">
                                         <div class="col-md-12">
                                             <input type="text" class="form-control" name="nama" id="nama" placeholder="Nama Lengkap">
@@ -309,7 +346,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12 text-center">
-                                            <button type="button" class="btn btn-hijau">Kirim</button>
+                                            <button type="button" class="btn btn-hijau btn-sec4">Kirim</button>
                                         </div>
                                     </div>
                                 </div>
@@ -322,8 +359,14 @@
     </section>
 
     <section id="sec5" class="pt-5 pb-5">
-        <div class="container">
-            <div class="row">
+        <div class="row">
+            <div class="col-12">
+                <img src="./img/bg_sec5.webp" alt="" srcset="" style="width: 30vw; position: absolute; left: 0; margin-top: 90vh;">
+                <img src="./img/bg_sec52.webp" alt="" srcset="" style="width: 30vw; position: absolute; right: 0; margin-top: 20vh; z-index: 0;">
+            </div>
+        </div>
+        <div class="container" style="z-index: 1;">
+            <div class="row" style="z-index: 3;">
                 <div class="col-md-12">
                     <div class="row">
                         <div class="col-md-8 offset-md-2">
@@ -342,23 +385,27 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 col-4">
-                                    <img src="./img/strawbao.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                                    <br>
-                                    <br>
-                                    <span class="text-white">Strawberry Bao</span>
-                                </div>
-                                <div class="col-md-4 col-4">
-                                    <img src="./img/bluebao.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                                    <br>
-                                    <br>
-                                    <span class="text-white">Blue Bao</span>
-                                </div>
-                                <div class="col-md-4 col-4">
-                                    <img src="./img/greenbao.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                                    <br>
-                                    <br>
-                                    <span class="text-white">Green Bao</span>
+                                <div class="col-md-8 offset-2">
+                                    <div class="row">
+                                        <div class="col-md-4 col-4">
+                                            <img src="./img/bao1.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                                            <br>
+                                            <br>
+                                            <span class="text-white">Strawberry Bao</span>
+                                        </div>
+                                        <div class="col-md-4 col-4">
+                                            <img src="./img/bao2.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                                            <br>
+                                            <br>
+                                            <span class="text-white">Blue Bao</span>
+                                        </div>
+                                        <div class="col-md-4 col-4">
+                                            <img src="./img/bao3.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                                            <br>
+                                            <br>
+                                            <span class="text-white">Green Bao</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -370,18 +417,22 @@
                                     <div class="h2 text-white"><u>MAGNOFIKO</u></div>
                                 </div>
                             </div>
-                            <div class="row justify-content-center">
-                                <div class="col-md-4 col-4 text-center">
-                                    <img src="./img/miltcoko.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                                    <br>
-                                    <br>
-                                    <span class="text-white">MeltChoco</span>
-                                </div>
-                                <div class="col-md-4 col-4 text-center">
-                                    <img src="./img/chizy.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                                    <br>
-                                    <br>
-                                    <span class="text-white">CheezyLicious</span>
+                            <div class="row">
+                                <div class="col-md-8 offset-2">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-4 col-4 text-center">
+                                            <img src="./img/bao4.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                                            <br>
+                                            <br>
+                                            <span class="text-white">MeltChoco</span>
+                                        </div>
+                                        <div class="col-md-4 col-4 text-center">
+                                            <img src="./img/bao5.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                                            <br>
+                                            <br>
+                                            <span class="text-white">CheezyLicious</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -395,12 +446,16 @@
                                             <div class="h2 text-white"><u>PERFECTO</u></div>
                                         </div>
                                     </div>
-                                    <div class="row justify-content-center">
-                                        <div class="col-md-4 col-4 text-center">
-                                            <img src="./img/prefect.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                                            <br>
-                                            <br>
-                                            <span class="text-white">ChickChop</span>
+                                    <div class="row">
+                                        <div class="col-md-8 offset-2">
+                                            <div class="row justify-content-center">
+                                                <div class="col-md-4 col-4 text-center">
+                                                    <img src="./img/bao6.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                                                    <br>
+                                                    <br>
+                                                    <span class="text-white">ChickChop</span>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -471,7 +526,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <button type="button" class="btn btn-hijau">Daftar Program Kemitraan Kamoi</button>
+                    <button type="button" class="btn btn-hijau btn-sec4">Daftar Program Kemitraan Kamoi</button>
                 </div>
             </div>
         </div>
@@ -641,7 +696,7 @@
                             </tr>
                             <tr>
                                 <td>Tentang Kami</td>
-                                <td>Konsep Kemitraan</td>
+                                <td>Paket Kemitraan</td>
                             </tr>
                             <tr>
                                 <td>Program</td>
