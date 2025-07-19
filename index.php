@@ -320,7 +320,7 @@
                                             <table>
                                                 <tr>
                                                     <td style="width: 7%;">
-                                                        <input type="checkbox" name="c_email" id="c_email" class="form-control" style="width: 30px; height: 30px">
+                                                        <input type="checkbox" name="c_email" id="c_email" class="form-control" style="width: 30px; height: 30px" onchange="this.checked ? this.style.backgroundColor='#B92F9E' : this.style.backgroundColor=''">
                                                     </td>
                                                     <td style="width: 93%;">
                                                         <span>Saya hanya ingin dihubungi melalui pesan whatsapp atau kontak email saja</span>
