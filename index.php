@@ -56,7 +56,7 @@
                 <div class="col-md-6 col-12 my-auto">
                     <div class="w7 h1 text-color-primary">BaoBae.id</div>
                     <p class="text">
-                        Slamat datang Calon Mitra Masa Depan
+                        Selamat datang Calon Mitra Masa Depan
                     </p>
                     <button type="button" id="btnSec1" class="btn btn-hijau">Tentang Kami</button>
                 </div>
@@ -601,6 +601,11 @@
     </section> -->
 
     <section id="sec8">
+        <div class="row">
+            <div class="col-12">
+                <img src="./img/logox.webp" alt="" srcset="" style="width: 20vw; position: absolute; right: 20vw; margin-top: -10vh; z-index: 0;">
+            </div>
+        </div>
         <div class="container">
             <div class="row mb-3">
                 <div class="col-md-12">
@@ -608,19 +613,17 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-4">
+                <div class="col-md-4 col-6">
                     <div class="row mb-3 h-50">
                         <div class="col-md-md-12">
                             <div class="h2 fw-bold">
                                 <span style="text-decoration: underline; text-decoration-color: purple; text-decoration-thickness: 5px;">Office</span>
                             </div>
                             <br>
-                            <p class="text">
                             <ul style="text-align: left !important;">
                                 <li>PT Sewangi Hati Nusantara </li>
                                 <li>Ponpes Al Ittihad Jurang Temanggung</li>
                             </ul>
-                            </p>
                         </div>
                     </div>
                     <div class="row mb-3 h-50">
@@ -629,26 +632,22 @@
                                 <span style="text-decoration: underline; text-decoration-color: purple; text-decoration-thickness: 5px;">Phone</span>
                             </div>
                             <br>
-                            <p class="text">
                             <ul style="text-align: left !important;">
                                 <li>(+62) 0811-2855-345</li>
                             </ul>
-                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-4">
+                <div class="col-md-8 col-6">
                     <div class="row mb-3 h-50">
                         <div class="col-md-md-12">
                             <div class="h2 fw-bold">
                                 <span style="text-decoration: underline; text-decoration-color: purple; text-decoration-thickness: 5px;">Email</span>
                             </div>
                             <br>
-                            <p class="text">
                             <ul style="text-align: left !important;">
                                 <li>baobaeid@gmail.com</li>
                             </ul>
-                            </p>
                         </div>
                     </div>
                     <div class="row mb-3 h-50">
@@ -657,24 +656,28 @@
                                 <span style="text-decoration: underline; text-decoration-color: purple; text-decoration-thickness: 5px;">Sosial Media</span>
                             </div>
                             <br>
-                            <p class="text" style="text-align: left !important;">
                             <div class="row">
-                                <div class="col-md-4 col-4 ms-auto">
-                                    <i class="fa-brands fa-instagram fa-2x"></i> <a style="text-decoration: none; color: black; font-size: 11px;" href="https://www.instagram.com/baobaeid/">@baobaeid</a>
+                                <div class="col-md-4">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <i class="fa-brands fa-instagram fa-2x me-2"></i>
+                                        <a style="text-decoration: none; color: black; font-size: 18px;" href="https://www.instagram.com/baobaeid/">@baobaeid</a>
+                                    </div>
                                 </div>
-                                <div class="col-md-4 col-4 ms-auto">
-                                    <i class="fa-brands fa-tiktok fa-2x"></i> <a style="text-decoration: none; color: black; font-size: 11px;" href="https://www.tiktok.com/baobaeid/">@baobae.id</a>
+                                <div class="col-md-4">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <i class="fa-brands fa-tiktok fa-2x me-2"></i>
+                                        <a style="text-decoration: none; color: black; font-size: 18px;" href="https://www.tiktok.com/baobaeid/">@baobae.id</a>
+                                    </div>
                                 </div>
-                                <div class="col-md-4 col-4 ms-auto">
-                                    <i class="fa-brands fa-facebook fa-2x"></i> <a style="text-decoration: none; color: black; font-size: 11px;" href="https://www.facebook.com/baobaeid/">BaoBae ID</a>
+                                <div class="col-md-4">
+                                    <div class="d-flex align-items-center">
+                                        <i class="fa-brands fa-facebook fa-2x me-2"></i>
+                                        <a style="text-decoration: none; color: black; font-size: 18px;" href="https://www.facebook.com/baobaeid/">BaoBae ID</a>
+                                    </div>
                                 </div>
                             </div>
-                            </p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-4 m-auto">
-                    <img src="./img/logox.webp" alt="" srcset="" class="top-0 end-0 me-3 mt-3 float-end" style="width: 20vw;">
                 </div>
             </div>
         </div>
@@ -683,30 +686,29 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-8">
-                    <div class="table-responsive">
+                <div class="col-md-8 col-8 my-auto">
+                    <div class="table-responsive fw-bold">
                         <table width="100%" cellpadding="10px">
                             <tr>
                                 <td>Beranda</td>
-                                <td>Marketing Support</td>
+                                <td>Dormitory / Asrama</td>
+                                <td>Ruang Produksi</td>
                             </tr>
                             <tr>
-                                <td>Kemitraan</td>
-                                <td>Training Operation</td>
+                                <td>Cabang kami</td>
+                                <td>Konsep Kemitraan</td>
+                                <td>Financial Projection</td>
                             </tr>
                             <tr>
-                                <td>Tentang Kami</td>
-                                <td>Paket Kemitraan</td>
-                            </tr>
-                            <tr>
-                                <td>Program</td>
-                                <td>Management Logistic</td>
+                                <td>Kilas Balik</td>
+                                <td></td>
+                                <td></td>
                             </tr>
                         </table>
                     </div>
                 </div>
-                <div class="col-md-6 col-4">
-                    <img src="./img/logo_baobae.png" style="width: 173px; height: 173px;" class="float-end">
+                <div class="col-md-4 col-4 my-auto">
+                    <img src="./img/logo_baobae.png" style="width: 15vw;" class="float-end">
                 </div>
             </div>
         </div>
