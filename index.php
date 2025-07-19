@@ -254,9 +254,7 @@
                 <div class="col-md-6 offset-md-3">
                     <div class="card bg-color-primary text-center text-white">
                         <div class="card-body p-5">
-                            <span>Segera Book Appointment dengan kita dan survey</span>
-                            <br>
-                            <span>ke toko, biaya perjalanan anda akan kita reimburse</span>
+                            <span>Segera Book Appointment dengan kita dan survey ke lokasi</span>
                         </div>
                     </div>
                 </div>
