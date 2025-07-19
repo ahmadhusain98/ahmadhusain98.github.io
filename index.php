@@ -43,7 +43,7 @@
                         <a class="nav-link text" type="button" id="btnNav3" onclick="na(3)" href="#sec3">Tentang Kami</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text" type="button" id="btnNav4" onclick="na(4)" href="#sec7">Program</a>
+                        <a class="nav-link text" type="button" id="btnNav4" onclick="na(4)" href="#sec6">Program</a>
                     </li>
                 </ul>
             </div>
@@ -56,7 +56,7 @@
                 <div class="col-md-6 col-12 my-auto">
                     <div class="w7 h1 text-color-primary">BaoBae.id</div>
                     <p class="text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, expedita repellendus? Blanditiis dolorum ea laudantium dolorem temporibus ipsum pariatur fugiat.
+                        Slamat datang Calon Mitra Masa Depan
                     </p>
                     <button type="button" class="btn btn-hijau" style="border-radius: 50px;">Tentang Kami</button>
                 </div>
@@ -80,7 +80,7 @@
                                             <div class="col-md-12">
                                                 <button type="button" class="btn btn-hijau mb-3" style="border-radius: 10px;">Prosedur Kemitraan</button>
                                                 <p class="text text-white mb-3">
-                                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, pariatur.
+                                                    Mari pelajari cara bermitra dengan kami dan beberapa penjelasannya
                                                 </p>
                                                 <a href="#" class="text-decoration-none text-white"><i>Pelajari lebih lanjut ></i></a>
                                             </div>
@@ -91,7 +91,7 @@
                                             <div class="col-md-12">
                                                 <button type="button" class="btn btn-hijau mb-3" style="border-radius: 10px;">Syarat Kemitraan</button>
                                                 <p class="text text-white mb-3">
-                                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, pariatur.
+                                                    Berikut beberapa syarat Kemitraan kami
                                                 </p>
                                                 <a href="#" class="text-decoration-none text-white"><i>Pelajari lebih lanjut ></i></a>
                                             </div>
@@ -102,7 +102,7 @@
                                             <div class="col-md-12">
                                                 <button type="button" class="btn btn-hijau mb-3" style="border-radius: 10px;">Sistem Kerjasama</button>
                                                 <p class="text text-white mb-3">
-                                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, pariatur.
+                                                    System kerja sama yang mudah dan Profesional
                                                 </p>
                                                 <a href="#" class="text-decoration-none text-white"><i>Pelajari lebih lanjut ></i></a>
                                             </div>
@@ -121,23 +121,22 @@
         <div class="container">
             <div class="row g-5">
                 <div class="col-md-4 col-4">
-                    <button type="button" id="btn1" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(1)">Branding Baobae.id <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn2" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(2)">Desain Toko <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn3" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(3)">Marketing Support <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn4" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(4)">Training Operasional <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn5" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(5)">Survei Lokasi <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn6" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(6)">User Guide <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn7" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(7)">Perencanaan Event <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn8" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(8)">Management Logistic <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn1" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(1)">Tentang Baobae.id <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn2" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(2)">Cabang Kami <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn3" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(3)">Kilas Balik <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn4" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(4)">Ruang Produksi <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn5" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(5)">Dormitory / Asrama <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn6" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(6)">Konsep Kemitraan <i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btn7" class="btn text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(7)">Financial Projection <i class="fa-solid fa-play"></i></button>
                 </div>
                 <div class="col-md-8 col-8">
                     <div class="card h-100" id="content1">
                         <div class="card-body text-center text2">
                             <div class="content-accordion">
-                                <img src="./img/image_accordion.webp" alt="" srcset="" class="img-s3 mb-3">
-                                <div class="h3 mb-3">Branding Baobae.id</div>
+                                <img src="./img/ac1.webp" alt="" srcset="" class="img-s3 mb-3">
+                                <div class="h3 mb-3">Tentang Baobae.id</div>
                                 <p>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
+                                    Selama satu dekade, Kami telah tumbuh menjadi simbol kepercayaan dan kelezatan dalam industri bakpao halal. Setiap gigitan adalah cerita tentang dedikasi, sebagai komitmen pada kualitas halal dan perbaikan diri Kami. Pembelajaran pengalaman dari waktu ke waktu mengukir Kami hingga berhasil menemukan cara untuk menghasilkan produk-produk halal, berkualitas, dengan harga yang terjangkau.
                                 </p>
                             </div>
                         </div>
@@ -145,10 +144,10 @@
                     <div class="card h-100" id="content2">
                         <div class="card-body text-center text2">
                             <div class="content-accordion">
-                                <img src="./img/g2.webp" alt="" srcset="" class="img-s3 mb-3">
-                                <div class="h3 mb-3">Desain Toko</div>
+                                <img src="./img/ac2.webp" alt="" srcset="" class="img-s3 mb-3">
+                                <div class="h3 mb-3">Cabang Kami</div>
                                 <p>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
+                                    Usaha bakpao ini, pertama kali beroperasi pada 22 Mei 2015 yang berlokasi di Palur, Solo. Menginjak akhir tahun 2024, Usaha ini resmi telah membuka 8 cabang serta 1 satelit di Jawa dan Kalimantan. Yaitu Solo, Batang, Semarang, Pangkalan Bun, Banjarmasin, Banjarbaru, Pelai hari, Kandangan, dan Paringin.
                                 </p>
                             </div>
                         </div>
@@ -156,10 +155,11 @@
                     <div class="card h-100" id="content3">
                         <div class="card-body text-center text2">
                             <div class="content-accordion">
-                                <img src="./img/g1.webp" alt="" srcset="" class="img-s3 mb-3">
-                                <div class="h3 mb-3">Marketing Support</div>
+                                <img src="./img/ac3.webp" alt="" srcset="" class="img-s3 mb-3">
+                                <div class="h3 mb-3">Kilas Balik</div>
                                 <p>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
+                                    <b>EVALUASI MINGGUAN | UMRAH BERSAMA | UPSCALING PIKNIK | TASYAKURAN</b>
+                                    <br>Untuk mencapai kesejahteraan bersama, seminggu sekali Kami menga dakan evaluasi rutin dan doa bersama di setiap cabang, melakukan umrah bersama secara bertahap, menambah ilmu dari para cendekia, piknik 3 tahun sekali, dan melakukan tasyakuran sebelum memulai usaha produksi dan penjualan.
                                 </p>
                             </div>
                         </div>
@@ -167,10 +167,16 @@
                     <div class="card h-100" id="content4">
                         <div class="card-body text-center text2">
                             <div class="content-accordion">
-                                <img src="./img/g3.webp" alt="" srcset="" class="img-s3 mb-3">
-                                <div class="h3 mb-3">Training Operasional</div>
+                                <img src="./img/ac4.webp" alt="" srcset="" class="img-s3 mb-3">
+                                <div class="h3 mb-3">Ruang Produksi</div>
                                 <p>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
+                                <ul style="text-align: left !important;">
+                                    <li>Lantai dan Dinding mudah dibersihkan</li>
+                                    <li>Jalur air bersih</li>
+                                    <li>Tempat cuci alat + jalur air Pembuangan</li>
+                                    <li>Sirkulasi udara lancar</li>
+                                    <li>Pencahayaan vaik ( tidak lembab )</li>
+                                </ul>
                                 </p>
                             </div>
                         </div>
@@ -178,10 +184,25 @@
                     <div class="card h-100" id="content5">
                         <div class="card-body text-center text2">
                             <div class="content-accordion">
-                                <img src="./img/g6.webp" alt="" srcset="" class="img-s3 mb-3">
-                                <div class="h3 mb-3">Survei Lokasi</div>
+                                <img src="./img/ac5.webp" alt="" srcset="" class="img-s3 mb-3">
+                                <div class="h3 mb-3">Dormitory / Asrama</div>
                                 <p>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
+                                <div class="row">
+                                    <div class="col-md-6 col-12">
+                                        <ul style="text-align: left !important;">
+                                            <li>Ruang Serbaguna</li>
+                                            <li>Kamar tidur (kapasitas 5-10 orang)</li>
+                                            <li>Ruang Manajer</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6 col-12">
+                                        <ul style="text-align: left !important;">
+                                            <li>2 Kamar Mandi</li>
+                                            <li>Dapur + Laundry</li>
+                                            <li>Tempat Parkir Gerobak (18 m )</li>
+                                        </ul>
+                                    </div>
+                                </div>
                                 </p>
                             </div>
                         </div>
@@ -189,10 +210,16 @@
                     <div class="card h-100" id="content6">
                         <div class="card-body text-center text2">
                             <div class="content-accordion">
-                                <img src="./img/g7.webp" alt="" srcset="" class="img-s3 mb-3">
-                                <div class="h3 mb-3">User Guide</div>
+                                <img src="./img/ac6.webp" alt="" srcset="" class="img-s3 mb-3">
+                                <div class="h3 mb-3">Konsep Kemitraan</div>
                                 <p>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
+                                <ul style="text-align: left !important;">
+                                    <li>Lantai dan Dinding mudah dibersihkan</li>
+                                    <li>Jalur air bersih</li>
+                                    <li>Tempat cuci alat + jalur air Pembuangan</li>
+                                    <li>Sirkulasi udara lancar</li>
+                                    <li>Pencahayaan vaik ( tidak lembab )</li>
+                                </ul>
                                 </p>
                             </div>
                         </div>
@@ -200,21 +227,16 @@
                     <div class="card h-100" id="content7">
                         <div class="card-body text-center text2">
                             <div class="content-accordion">
-                                <img src="./img/g10.webp" alt="" srcset="" class="img-s3 mb-3">
-                                <div class="h3 mb-3">Perencanaan Event</div>
+                                <img src="./img/ac7.webp" alt="" srcset="" class="img-s3 mb-3">
+                                <div class="h3 mb-3">Financial Projection</div>
                                 <p>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card h-100" id="content8">
-                        <div class="card-body text-center text2">
-                            <div class="content-accordion">
-                                <img src="./img/g9.webp" alt="" srcset="" class="img-s3 mb-3">
-                                <div class="h3 mb-3">Management Logistic</div>
-                                <p>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto ducimus amet debitis aperiam sed asperiores, maxime enim corrupti provident odio nemo exercitationem? Inventore error excepturi corrupti molestiae, aperiam reprehenderit eos, minima dolorum soluta porro veniam qui repudiandae expedita accusamus tempora dignissimos adipisci? Itaque et omnis ratione dolorum aliquam dicta optio, harum odit architecto qui ipsam voluptate ullam hic illum saepe delectus quasi! Repellendus vitae saepe quos adipisci, ea modi vel praesentium nesciunt dolores eum earum tempora quidem fuga, ullam autem mollitia et soluta ratione molestias veniam dolorum accusamus, veritatis odio! In tempore quod quaerat aut consectetur quam, dolore repudiandae.
+                                <ul style="text-align: left !important;">
+                                    <li>Lantai dan Dinding mudah dibersihkan</li>
+                                    <li>Jalur air bersih</li>
+                                    <li>Tempat cuci alat + jalur air Pembuangan</li>
+                                    <li>Sirkulasi udara lancar</li>
+                                    <li>Pencahayaan vaik ( tidak lembab )</li>
+                                </ul>
                                 </p>
                             </div>
                         </div>
@@ -310,8 +332,7 @@
                             <div class="h1 text-white">Produk unggulan BaoBae</div>
                             <br>
                             <span class="text-white">
-                                Kami berkomitmen teguh terhadap kualitas dengan memilih bahan-bahan segar dan terbaik secara cermat, dengan tujuan
-                                menciptakan minuman bertekstur alami dan kaya rasa.
+                                Kami berkomitmen teguh terhadap kualitas dengan memilih bahan-bahan segar dan terbaik secara cermat, dengan tujuan menciptakan minuman bertekstur alami dan kaya rasa.
                             </span>
                         </div>
                     </div>
@@ -405,16 +426,14 @@
                     <div class="h2 fw-bold"><span style="text-decoration: underline; text-decoration-color: purple; text-decoration-thickness: 5px;">FRESH STEAMER</span></div>
                     <br>
                     <p class="text">
-                        Kami berkomitmen teguh terhadap kualitas dengan memilih bahan-bahan segar dan terbaik secara cermat, dengan tujuan
-                        menciptakan minuman bertekstur alami dan kaya rasa.
+                        Kami berkomitmen teguh terhadap kualitas dengan memilih bahan-bahan segar dan terbaik secara cermat, dengan tujuan menciptakan minuman bertekstur alami dan kaya rasa.
                     </p>
                 </div>
                 <div class="col-md-6">
                     <div class="h2 fw-bold"><span style="text-decoration: underline; text-decoration-color: purple; text-decoration-thickness: 5px;">KARIR BERJENJANG</span></div>
                     <br>
                     <p class="text">
-                        Sistem jenjang karir yang terbuka bagi karyawan yang berprestasi, memudahkan mitra untuk mendelegasikan cabang usaha
-                        baru
+                        Sistem jenjang karir yang terbuka bagi karyawan yang berprestasi, memudahkan mitra untuk mendelegasikan cabang usaha baru
                     </p>
                 </div>
             </div>
@@ -448,8 +467,7 @@
                     </div>
                     <br>
                     <p class="text">
-                        Bergerak fleksibel dengan daya jang kau luas dan cepat, menjangkau kon sumen secara langsung, omzet berli pat daripada
-                        menetap
+                        Bergerak fleksibel dengan daya jang kau luas dan cepat, menjangkau kon sumen secara langsung, omzet berli pat daripada menetap
                     </p>
                 </div>
             </div>
@@ -461,7 +479,7 @@
         </div>
     </section>
 
-    <section id="sec7">
+    <!-- <section id="sec7">
         <div class="container">
             <div class="row mb-3">
                 <div class="col-md-12 text-center">
@@ -527,6 +545,86 @@
                 </div>
             </div>
         </div>
+    </section> -->
+
+    <section id="sec8">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col-md-12">
+                    <div class="h1">KONTAK KAMI</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-4">
+                    <div class="row mb-3 h-50">
+                        <div class="col-md-md-12">
+                            <div class="h2 fw-bold">
+                                <span style="text-decoration: underline; text-decoration-color: purple; text-decoration-thickness: 5px;">Office</span>
+                            </div>
+                            <br>
+                            <p class="text">
+                            <ul style="text-align: left !important;">
+                                <li>PT Sewangi Hati Nusantara </li>
+                                <li>Ponpes Al Ittihad Jurang Temanggung</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mb-3 h-50">
+                        <div class="col-md-md-12">
+                            <div class="h2 fw-bold">
+                                <span style="text-decoration: underline; text-decoration-color: purple; text-decoration-thickness: 5px;">Phone</span>
+                            </div>
+                            <br>
+                            <p class="text">
+                            <ul style="text-align: left !important;">
+                                <li>(+62) 0811-2855-345</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-4">
+                    <div class="row mb-3 h-50">
+                        <div class="col-md-md-12">
+                            <div class="h2 fw-bold">
+                                <span style="text-decoration: underline; text-decoration-color: purple; text-decoration-thickness: 5px;">Email</span>
+                            </div>
+                            <br>
+                            <p class="text">
+                            <ul style="text-align: left !important;">
+                                <li>baobaeid@gmail.com</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mb-3 h-50">
+                        <div class="col-md-md-12">
+                            <div class="h2 fw-bold">
+                                <span style="text-decoration: underline; text-decoration-color: purple; text-decoration-thickness: 5px;">Sosial Media</span>
+                            </div>
+                            <br>
+                            <p class="text" style="text-align: left !important;">
+                            <div class="row">
+                                <div class="col-md-4 col-4 ms-auto">
+                                    <i class="fa-brands fa-instagram fa-2x"></i> <a style="text-decoration: none; color: black; font-size: 11px;" href="https://www.instagram.com/baobaeid/">@baobaeid</a>
+                                </div>
+                                <div class="col-md-4 col-4 ms-auto">
+                                    <i class="fa-brands fa-tiktok fa-2x"></i> <a style="text-decoration: none; color: black; font-size: 11px;" href="https://www.tiktok.com/baobaeid/">@baobae.id</a>
+                                </div>
+                                <div class="col-md-4 col-4 ms-auto">
+                                    <i class="fa-brands fa-facebook fa-2x"></i> <a style="text-decoration: none; color: black; font-size: 11px;" href="https://www.facebook.com/baobaeid/">BaoBae ID</a>
+                                </div>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-4 m-auto">
+                    <img src="./img/logox.webp" alt="" srcset="" class="top-0 end-0 me-3 mt-3 float-end" style="width: 20vw;">
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>
@@ -545,7 +643,7 @@
                             </tr>
                             <tr>
                                 <td>Tentang Kami</td>
-                                <td>User Guide</td>
+                                <td>Konsep Kemitraan</td>
                             </tr>
                             <tr>
                                 <td>Program</td>
@@ -578,13 +676,13 @@
 
         function ct(param) {
             // Remove active class from all buttons
-            for (let i = 1; i <= 8; i++) {
+            for (let i = 1; i <= 7; i++) {
                 document.getElementById(`btn${i}`).classList.remove('active');
                 $('#content' + i).hide();
             }
 
             // Add active class to selected button
-            document.getElementById(`btn${param || 8}`).classList.add('active');
+            document.getElementById(`btn${param || 7}`).classList.add('active');
             $('#content' + param).show();
         }
     </script>
