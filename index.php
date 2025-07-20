@@ -54,11 +54,15 @@
         <div class="container pt-5 pb-5">
             <div class="row">
                 <div class="col-md-6 col-12 my-auto">
-                    <div class="w7 h1 text-color-primary">BaoBae.id</div>
-                    <p class="text">
-                        Selamat datang Calon Mitra Masa Depan
-                    </p>
-                    <button type="button" id="btnSec1" class="btn btn-hijau">Tentang Kami</button>
+                    <div class="row mt-5">
+                        <div class="col-md-12">
+                            <div class="w7 h1 text-color-primary">BaoBae.id</div>
+                            <p class="text">
+                                Selamat datang Calon Mitra Masa Depan
+                            </p>
+                            <button type="button" id="btnSec1" class="btn btn-hijau">Tentang Kami</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-6 d-flex justify-content-center col-12 position-absolute d-none d-md-block end-0">
                     <img src="./img/sec1.webp" id="img-s1">
