@@ -365,8 +365,8 @@
     <section id="sec5" class="pt-5 pb-5">
         <div class="row">
             <div class="col-12">
-                <img src="./img/bg_sec5.webp" alt="" srcset="" style="width: 25vw; position: absolute; left: 0; margin-top: 10vh;">
-                <img src="./img/bg_sec52.webp" alt="" srcset="" style="width: 25vw; position: absolute; right: 0; margin-top: 5vh; z-index: 0;">
+                <img src="./img/bg_sec5.webp" alt="" srcset="" style="width: 25vw; position: absolute; left: 0; margin-top: 70vh;">
+                <img src="./img/bg_sec52.webp" alt="" srcset="" style="width: 25vw; position: absolute; right: 0; margin-top: 20vh; z-index: 0;">
             </div>
         </div>
         <div class="container" style="z-index: 1;">
