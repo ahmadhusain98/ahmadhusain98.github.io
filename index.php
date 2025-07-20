@@ -82,7 +82,7 @@
                                     <div class="col-md-4">
                                         <div class="card h-100" style="background-color: transparent; border: none;">
                                             <div class="card-header" style="background-color: transparent; border: none;">
-                                                <button type="button" class="btn btn-sec2 btn-hijau mb-3" style="border-radius: 10px;">Prosedur Kemitraan</button>
+                                                <button type="button" class="btn btn-sec2 btn-hijau mb-3" style="border-radius: 10px;">Konsep Kemitraan</button>
                                             </div>
                                             <div class="card-body" style="background-color: transparent; border: none;">
                                                 <span class="text-white">Mari pelajari cara bermitra dengan kami dan beberapa penjelasannya</span>
@@ -95,10 +95,10 @@
                                     <div class="col-md-4">
                                         <div class="card h-100" style="background-color: transparent; border: none;">
                                             <div class="card-header" style="background-color: transparent; border: none;">
-                                                <button type="button" class="btn btn-sec2 btn-hijau mb-3" style="border-radius: 10px;">Syarat Kemitraan</button>
+                                                <button type="button" class="btn btn-sec2 btn-hijau mb-3" style="border-radius: 10px;">Cabang Kami</button>
                                             </div>
                                             <div class="card-body" style="background-color: transparent; border: none;">
-                                                <span class="text-white">Berikut beberapa syarat Kemitraan kami</span>
+                                                <span class="text-white"> Usaha bakpao ini, pertama kali beroperasi pada 22 Mei 2015 yang berlokasi di Palur, Solo. Menginjak akhir tahun 2024</span>
                                             </div>
                                             <div class="card-footer" style="background-color: transparent; border: none;">
                                                 <a href="#" class="text-decoration-none text-white"><i>Pelajari lebih lanjut ></i></a>
@@ -108,10 +108,10 @@
                                     <div class="col-md-4">
                                         <div class="card h-100" style="background-color: transparent; border: none;">
                                             <div class="card-header" style="background-color: transparent; border: none;">
-                                                <button type="button" class="btn btn-sec2 btn-hijau mb-3" style="border-radius: 10px;">Sistem Kerjasama</button>
+                                                <button type="button" class="btn btn-sec2 btn-hijau mb-3" style="border-radius: 10px;">Financial Project</button>
                                             </div>
                                             <div class="card-body" style="background-color: transparent; border: none;">
-                                                <span class="text-white">System kerja sama yang mudah dan Profesional</span>
+                                                <span class="text-white">Proyeksi kemitraan dan gambaran penghasilan yang di dapat</span>
                                             </div>
                                             <div class="card-footer" style="background-color: transparent; border: none;">
                                                 <a href="#" class="text-decoration-none text-white"><i>Pelajari lebih lanjut ></i></a>
@@ -365,8 +365,8 @@
     <section id="sec5" class="pt-5 pb-5">
         <div class="row">
             <div class="col-12">
-                <img src="./img/bg_sec5.webp" alt="" srcset="" style="width: 30vw; position: absolute; left: 0; margin-top: 90vh;">
-                <img src="./img/bg_sec52.webp" alt="" srcset="" style="width: 30vw; position: absolute; right: 0; margin-top: 20vh; z-index: 0;">
+                <img src="./img/bg_sec5.webp" alt="" srcset="" style="width: 25vw; position: absolute; left: 0; margin-top: 10vh;">
+                <img src="./img/bg_sec52.webp" alt="" srcset="" style="width: 25vw; position: absolute; right: 0; margin-top: 5vh; z-index: 0;">
             </div>
         </div>
         <div class="container" style="z-index: 1;">
