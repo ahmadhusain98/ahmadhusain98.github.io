@@ -371,96 +371,79 @@
         </div>
         <div class="container" style="z-index: 1;">
             <div class="row" style="z-index: 3;">
-                <div class="col-md-12">
+                <div class="col-12">
                     <div class="row">
-                        <div class="col-md-8 offset-md-2">
-                            <div class="h1 text-white">Produk unggulan BaoBae</div>
-                            <br>
-                            <span class="text-white">
+                        <div class="col-12 col-md-8 offset-md-2 text-center">
+                            <h1 class="text-white mb-4">Produk unggulan BaoBae</h1>
+                            <p class="text-white">
                                 Kami berkomitmen teguh terhadap kualitas dengan memilih bahan-bahan segar dan terbaik secara cermat, dengan tujuan menciptakan minuman bertekstur alami dan kaya rasa.
-                            </span>
+                            </p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="row mb-3 mt-3">
-                                <div class="col-md-12">
-                                    <div class="h2 text-white"><u>CLASSICO</u></div>
+
+                    <!-- CLASSICO Section -->
+                    <div class="row mt-5">
+                        <div class="col-12 text-center">
+                            <h2 class="text-white mb-4"><u>CLASSICO</u></h2>
+                        </div>
+                        <div class="col-12 col-md-8 offset-md-2">
+                            <div class="row g-4">
+                                <div class="col-4 text-center">
+                                    <div class="product-card">
+                                        <img src="./img/bao1.webp" alt="Strawberry Bao" class="img-fluid hover-zoom" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                                        <p class="text-white mt-3">Strawberry Bao</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-8 offset-2">
-                                    <div class="row">
-                                        <div class="col-md-4 col-4">
-                                            <img src="./img/bao1.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                                            <br>
-                                            <br>
-                                            <span class="text-white">Strawberry Bao</span>
-                                        </div>
-                                        <div class="col-md-4 col-4">
-                                            <img src="./img/bao2.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                                            <br>
-                                            <br>
-                                            <span class="text-white">Blue Bao</span>
-                                        </div>
-                                        <div class="col-md-4 col-4">
-                                            <img src="./img/bao3.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                                            <br>
-                                            <br>
-                                            <span class="text-white">Green Bao</span>
-                                        </div>
+                                <div class="col-4 text-center">
+                                    <div class="product-card">
+                                        <img src="./img/bao2.webp" alt="Blue Bao" class="img-fluid hover-zoom" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                                        <p class="text-white mt-3">Blue Bao</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <div class="product-card">
+                                        <img src="./img/bao3.webp" alt="Green Bao" class="img-fluid hover-zoom" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                                        <p class="text-white mt-3">Green Bao</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row mb-3 justify-content-center">
-                        <div class="col-md-12">
-                            <div class="row mb-3 mt-3">
-                                <div class="col-md-12">
-                                    <div class="h2 text-white"><u>MAGNOFIKO</u></div>
+
+                    <!-- MAGNOFIKO Section -->
+                    <div class="row mt-5">
+                        <div class="col-12 text-center">
+                            <h2 class="text-white mb-4"><u>MAGNOFIKO</u></h2>
+                        </div>
+                        <div class="col-12 col-md-8 offset-md-2">
+                            <div class="row g-4 justify-content-center">
+                                <div class="col-4 text-center">
+                                    <div class="product-card">
+                                        <img src="./img/bao4.webp" alt="MeltChoco" class="img-fluid hover-zoom" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                                        <p class="text-white mt-3">MeltChoco</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-8 offset-2">
-                                    <div class="row justify-content-center">
-                                        <div class="col-md-4 col-4 text-center">
-                                            <img src="./img/bao4.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                                            <br>
-                                            <br>
-                                            <span class="text-white">MeltChoco</span>
-                                        </div>
-                                        <div class="col-md-4 col-4 text-center">
-                                            <img src="./img/bao5.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                                            <br>
-                                            <br>
-                                            <span class="text-white">CheezyLicious</span>
-                                        </div>
+                                <div class="col-4 text-center">
+                                    <div class="product-card">
+                                        <img src="./img/bao5.webp" alt="CheezyLicious" class="img-fluid hover-zoom" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                                        <p class="text-white mt-3">CheezyLicious</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row mb-3 justify-content-center">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="row mb-3 mt-3">
-                                        <div class="col-md-12">
-                                            <div class="h2 text-white"><u>PERFECTO</u></div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-8 offset-2">
-                                            <div class="row justify-content-center">
-                                                <div class="col-md-4 col-4 text-center">
-                                                    <img src="./img/bao6.webp" alt="" srcset="" class="w-100" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                                                    <br>
-                                                    <br>
-                                                    <span class="text-white">ChickChop</span>
-                                                </div>
-                                            </div>
-                                        </div>
+
+                    <!-- PERFECTO Section -->
+                    <div class="row mt-5">
+                        <div class="col-12 text-center">
+                            <h2 class="text-white mb-4"><u>PERFECTO</u></h2>
+                        </div>
+                        <div class="col-12 col-md-8 offset-md-2">
+                            <div class="row g-4 justify-content-center">
+                                <div class="col-4 text-center">
+                                    <div class="product-card">
+                                        <img src="./img/bao6.webp" alt="ChickChop" class="img-fluid hover-zoom" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                                        <p class="text-white mt-3">ChickChop</p>
                                     </div>
                                 </div>
                             </div>
@@ -480,15 +463,17 @@
             </div>
             <div class="row mb-3">
                 <div class="col-md-6">
-                    <div class="h2 fw-bold"><span style="text-decoration: underline; text-decoration-color: purple; text-decoration-thickness: 5px;">FRESH STEAMER</span></div>
-                    <br>
+                    <h2 class="fw-bold mb-4">
+                        <span class="border-bottom border-3 border-purple pb-2">FRESH STEAMER</span>
+                    </h2>
                     <p class="text">
                         Kami berkomitmen teguh terhadap kualitas dengan memilih bahan-bahan segar dan terbaik secara cermat, dengan tujuan menciptakan minuman bertekstur alami dan kaya rasa.
                     </p>
                 </div>
                 <div class="col-md-6">
-                    <div class="h2 fw-bold"><span style="text-decoration: underline; text-decoration-color: purple; text-decoration-thickness: 5px;">KARIR BERJENJANG</span></div>
-                    <br>
+                    <h2 class="fw-bold mb-4">
+                        <span class="border-bottom border-3 border-purple pb-2">KARIR BERJENJANG</span>
+                    </h2>
                     <p class="text">
                         Sistem jenjang karir yang terbuka bagi karyawan yang berprestasi, memudahkan mitra untuk mendelegasikan cabang usaha baru
                     </p>
@@ -496,15 +481,17 @@
             </div>
             <div class="row mb-3">
                 <div class="col-md-6">
-                    <div class="h2 fw-bold"><span style="text-decoration: underline; text-decoration-color: purple; text-decoration-thickness: 5px;">HARGA TERJANGKAU</span></div>
-                    <br>
+                    <h2 class="fw-bold mb-4">
+                        <span class="border-bottom border-3 border-purple pb-2">HARGA TERJANGKAU</span>
+                    </h2>
                     <p class="text">
                         Harga yang murah dengan bahan premium menjangkau segmen kon sumen terbawah hingga menengah ataS
                     </p>
                 </div>
                 <div class="col-md-6">
-                    <div class="h2 fw-bold"><span style="text-decoration: underline; text-decoration-color: purple; text-decoration-thickness: 5px;">LOKASI SUKA-SUKA</span></div>
-                    <br>
+                    <h2 class="fw-bold mb-4">
+                        <span class="border-bottom border-3 border-purple pb-2">LOKASI SUKA-SUKA</span>
+                    </h2>
                     <p class="text">
                         Usaha ini tidak membutuhkan lokasi di tepi jalan raya, sehingga dapat me nekan biaya sewa
                     </p>
@@ -512,17 +499,17 @@
             </div>
             <div class="row mb-3">
                 <div class="col-md-6">
-                    <div class="h2 fw-bold"><span style="text-decoration: underline; text-decoration-color: purple; text-decoration-thickness: 5px;">BAHAN PREMIUM</span></div>
-                    <br>
+                    <h2 class="fw-bold mb-4">
+                        <span class="border-bottom border-3 border-purple pb-2">BAHAN PREMIUM</span>
+                    </h2>
                     <p class="text">
                         Menggunakan bahan baku yang halal berkualitas premium dengan harga yang terjangkau
                     </p>
                 </div>
                 <div class="col-md-6">
-                    <div class="h2 fw-bold">
-                        <span style="text-decoration: underline; text-decoration-color: purple; text-decoration-thickness: 5px;">FLEKSIBEL DAN CEPAT</span>
-                    </div>
-                    <br>
+                    <h2 class="fw-bold mb-4">
+                        <span class="border-bottom border-3 border-purple pb-2">FLEKSIBEL DAN CEPAT</span>
+                    </h2>
                     <p class="text">
                         Bergerak fleksibel dengan daya jang kau luas dan cepat, menjangkau kon sumen secara langsung, omzet berli pat daripada menetap
                     </p>
@@ -604,80 +591,68 @@
         </div>
     </section> -->
 
-    <section id="sec8">
-        <div class="row">
+    <section id="sec8" class="py-5">
+        <div class="row position-relative">
             <div class="col-12">
-                <img src="./img/logox.webp" alt="" srcset="" style="width: 20vw; position: absolute; right: 20vw; margin-top: -10vh; z-index: 0;">
+                <img src="./img/logox.webp" alt="Logo" class="position-absolute d-none d-lg-block" style="width: 200px; right: 15%; top: -10px; z-index: 0;">
             </div>
         </div>
         <div class="container">
-            <div class="row mb-3">
-                <div class="col-md-12">
-                    <div class="h1">KONTAK KAMI</div>
+            <div class="row mb-4">
+                <div class="col-12">
+                    <h1 class="text-center text-md-start">KONTAK KAMI</h1>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4 col-6">
-                    <div class="row mb-3 h-50">
-                        <div class="col-md-md-12">
-                            <div class="h2 fw-bold">
-                                <span style="text-decoration: underline; text-decoration-color: purple; text-decoration-thickness: 5px;">Office</span>
-                            </div>
-                            <br>
-                            <ul style="text-align: left !important;">
-                                <li>PT Sewangi Hati Nusantara </li>
-                                <li>Ponpes Al Ittihad Jurang Temanggung</li>
-                            </ul>
-                        </div>
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <div class="mb-5">
+                        <h2 class="fw-bold mb-4">
+                            <span class="border-bottom border-3 border-purple pb-2">Office</span>
+                        </h2>
+                        <ul class="list-unstyled">
+                            <li>PT Sewangi Hati Nusantara</li>
+                            <li>Ponpes Al Ittihad Jurang Temanggung</li>
+                        </ul>
                     </div>
-                    <div class="row mb-3 h-50">
-                        <div class="col-md-md-12">
-                            <div class="h2 fw-bold">
-                                <span style="text-decoration: underline; text-decoration-color: purple; text-decoration-thickness: 5px;">Phone</span>
-                            </div>
-                            <br>
-                            <ul style="text-align: left !important;">
-                                <li>(+62) 0811-2855-345</li>
-                            </ul>
-                        </div>
+                    <div>
+                        <h2 class="fw-bold mb-4">
+                            <span class="border-bottom border-3 border-purple pb-2">Phone</span>
+                        </h2>
+                        <ul class="list-unstyled">
+                            <li>(+62) 0811-2855-345</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-md-8 col-6">
-                    <div class="row mb-3 h-50">
-                        <div class="col-md-md-12">
-                            <div class="h2 fw-bold">
-                                <span style="text-decoration: underline; text-decoration-color: purple; text-decoration-thickness: 5px;">Email</span>
-                            </div>
-                            <br>
-                            <ul style="text-align: left !important;">
-                                <li>baobaeid@gmail.com</li>
-                            </ul>
-                        </div>
+                <div class="col-12 col-md-8">
+                    <div class="mb-5">
+                        <h2 class="fw-bold mb-4">
+                            <span class="border-bottom border-3 border-purple pb-2">Email</span>
+                        </h2>
+                        <ul class="list-unstyled">
+                            <li>baobaeid@gmail.com</li>
+                        </ul>
                     </div>
-                    <div class="row mb-3 h-50">
-                        <div class="col-md-md-12">
-                            <div class="h2 fw-bold">
-                                <span style="text-decoration: underline; text-decoration-color: purple; text-decoration-thickness: 5px;">Sosial Media</span>
+                    <div>
+                        <h2 class="fw-bold mb-4">
+                            <span class="border-bottom border-3 border-purple pb-2">Sosial Media</span>
+                        </h2>
+                        <div class="row g-3">
+                            <div class="col-12 col-sm-4">
+                                <div class="d-flex align-items-center">
+                                    <i class="fa-brands fa-instagram fa-2x me-3"></i>
+                                    <a href="https://www.instagram.com/baobaeid/" class="text-decoration-none text-dark fs-5">@baobaeid</a>
+                                </div>
                             </div>
-                            <br>
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="d-flex align-items-center mb-2">
-                                        <i class="fa-brands fa-instagram fa-2x me-2"></i>
-                                        <a style="text-decoration: none; color: black; font-size: 18px;" href="https://www.instagram.com/baobaeid/">@baobaeid</a>
-                                    </div>
+                            <div class="col-12 col-sm-4">
+                                <div class="d-flex align-items-center">
+                                    <i class="fa-brands fa-tiktok fa-2x me-3"></i>
+                                    <a href="https://www.tiktok.com/baobaeid/" class="text-decoration-none text-dark fs-5">@baobae.id</a>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="d-flex align-items-center mb-2">
-                                        <i class="fa-brands fa-tiktok fa-2x me-2"></i>
-                                        <a style="text-decoration: none; color: black; font-size: 18px;" href="https://www.tiktok.com/baobaeid/">@baobae.id</a>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="d-flex align-items-center">
-                                        <i class="fa-brands fa-facebook fa-2x me-2"></i>
-                                        <a style="text-decoration: none; color: black; font-size: 18px;" href="https://www.facebook.com/baobaeid/">BaoBae ID</a>
-                                    </div>
+                            </div>
+                            <div class="col-12 col-sm-4">
+                                <div class="d-flex align-items-center">
+                                    <i class="fa-brands fa-facebook fa-2x me-3"></i>
+                                    <a href="https://www.facebook.com/baobaeid/" class="text-decoration-none text-dark fs-5">BaoBae ID</a>
                                 </div>
                             </div>
                         </div>

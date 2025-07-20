@@ -4,14 +4,14 @@
     
     /* Base font sizes */
     --font-size-base: 16px;
-    --font-size-h1: clamp(2rem, 5vw, 4rem);
-    --font-size-nav: clamp(1rem, 1.5vw, 1.5rem);
-    --font-size-text: clamp(1rem, 2vw, 1.2rem);
+    --font-size-h1: clamp(2rem, 3rem, 4rem);
+    --font-size-nav: clamp(1rem, 1.25rem, 1.5rem);
+    --font-size-text: clamp(1rem, 1.1rem, 1.2rem);
     
     /* Border radius */
-    --border-radius-sm: clamp(0.5rem, 1vw, 1rem);
-    --border-radius-md: clamp(1rem, 2vw, 2rem);
-    --border-radius-lg: clamp(1.5rem, 1vw, 3rem);
+    --border-radius-sm: clamp(0.5rem, 0.75rem, 1rem);
+    --border-radius-md: clamp(1rem, 1.5rem, 2rem);
+    --border-radius-lg: clamp(1.5rem, 2.25rem, 3rem);
 }
 
 /* Global Styles */
@@ -23,7 +23,7 @@ body {
 }
 
 section {
-    padding: clamp(3rem, 8vw, 200px) 0 !important;
+    padding: clamp(3rem, 6rem, 200px) 0 !important;
     padding-top: clamp(5vh, 10vh, 20vh);
     padding-bottom: clamp(5vh, 10vh, 20vh);
 }
@@ -40,7 +40,7 @@ section {
 
 /* Navigation */
 .navbar-brand {
-    font-size: clamp(1.5rem, 3vw, 3rem);
+    font-size: clamp(1.5rem, 2.25rem, 3rem);
     font-weight: bold;
     line-height: 100%;
     color: #FFFFFF;
@@ -65,8 +65,8 @@ section {
     font-weight: 700;
     font-size: var(--font-size-nav);
     line-height: 100%;
-    padding: clamp(0.5rem, 2vw, 1.25rem);
-    margin-top: clamp(1rem, 2vw, 1.25rem);
+    padding: clamp(0.5rem, 0.875rem, 1.25rem);
+    margin-top: clamp(1rem, 1.125rem, 1.25rem);
     border-radius: var(--border-radius-sm);
 }
 
@@ -77,13 +77,12 @@ section {
 
 /* Section 1 */
 #sec1 {
-    /* padding: clamp(3rem, 10vw, 150px) 0 !important; */
     width: 100%;
 }
 
 #btnSec1 {
-    margin-top: clamp(2rem, 30vh, 3rem);
-    border-radius: clamp(25px, 5vw, 50px);
+    margin-top: clamp(2rem, 2.5rem, 3rem);
+    border-radius: clamp(25px, 37.5px, 50px);
 }
 
 #btnSec1:hover {
@@ -96,22 +95,10 @@ section {
     max-width: 657px;
     height: auto;
     right: 0;
-    /* aspect-ratio: 657/350; */
     position: absolute;
-    /* border-radius: var(--border-radius-md); */
     float: right;
     margin-left: auto;
 }
-
-/* #img-s1 {
-    width: 657px;
-    height: 350px;
-    position: absolute;
-    right: 0;
-    border-radius: 20px;
-    float: right;
-    margin-left: auto;
-} */
 
 /* Section 2 */
 #sec2 {
@@ -135,7 +122,7 @@ section {
 }
 
 #sec5 .btn-hijau {
-    width: clamp(120px, 10vw, 200px) !important;
+    width: clamp(120px, 160px, 200px) !important;
 }
 
 .form-sec4 {
@@ -152,15 +139,20 @@ section {
     background-color: #f6ebe5;
 }
 
+.border-bottom {
+    border-color: #B92F9E !important;
+    border-width: 4px !important;
+}
+
 /* Components */
 .card {
     border-radius: var(--border-radius-lg) !important;
 }
 
 .btn-accordion {
-    font-size: clamp(1rem, 1.875vw, 1.5rem);
-    width: clamp(200px, 20vw, 300px);
-    padding: clamp(0.75rem, 2vw, 1.25rem) !important;
+    font-size: clamp(1rem, 1.25rem, 1.5rem);
+    width: clamp(200px, 250px, 300px);
+    padding: clamp(0.75rem, 1rem, 1.25rem) !important;
     border-radius: var(--border-radius-sm);
 }
 
@@ -180,10 +172,10 @@ section {
 }
 
 /* Text Styles */
-.text { font-size: clamp(1rem, 2.5vw, 1.35rem); }
-.text2 { font-size: clamp(1rem, 2vw, 1.35rem); }
+.text { font-size: clamp(1rem, 1.175rem, 1.35rem); }
+.text2 { font-size: clamp(1rem, 1.175rem, 1.35rem); }
 .fa-play { color: #98CD03; }
-.fa-solid { font-size: clamp(1rem, 1.875vw, 1.5rem); }
+.fa-solid { font-size: clamp(1rem, 1.25rem, 1.5rem); }
 
 /* Gallery */
 .gallery .wrapper {
@@ -199,23 +191,23 @@ footer {
 }
 
 footer .table-responsive {
-    font-size: clamp(0.875rem, 1.56vw, 1.25rem);
+    font-size: clamp(0.875rem, 1.063rem, 1.25rem);
 }
 
 /* Media Queries */
 @media (max-width: 768px) {
     .text, span, p, button {
-        font-size: clamp(0.875rem, 2.5vw, 1rem) !important;
+        font-size: clamp(0.875rem, 0.938rem, 1rem) !important;
     }
     
     .btn-hijau {
-        padding: clamp(0.5rem, 1vw, 0.75rem) !important;
+        padding: clamp(0.5rem, 0.625rem, 0.75rem) !important;
     }
 }
 
 @media (min-width: 769px) {
     .btn-hijau {
-        padding: clamp(1rem, 2vw, 1.25rem) !important;
+        padding: clamp(1rem, 1.125rem, 1.25rem) !important;
     }
 }
 
