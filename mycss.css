@@ -23,9 +23,7 @@ body {
 }
 
 section {
-    padding: clamp(3rem, 6rem, 200px) 0 !important;
-    padding-top: clamp(5vh, 10vh, 20vh);
-    padding-bottom: clamp(5vh, 10vh, 20vh);
+    padding: clamp(2rem, 5vw, 8rem) clamp(1rem, 3vw, 4rem) !important;
 }
 
 /* Utility Classes */
@@ -123,6 +121,15 @@ section {
 
 #sec5 .btn-hijau {
     width: clamp(120px, 160px, 200px) !important;
+}
+
+.border-bottom-white {
+    border-bottom: 4px solid #FFFFFF !important;
+    display: block !important;
+    width: fit-content !important;
+    padding-bottom: 0.5rem !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 .form-sec4 {

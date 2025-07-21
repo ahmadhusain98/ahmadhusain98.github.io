@@ -376,7 +376,7 @@
                         <div class="col-12 col-md-8 offset-md-2 text-center">
                             <h1 class="text-white mb-4">Produk unggulan BaoBae</h1>
                             <p class="text-white">
-                                Kami berkomitmen teguh terhadap kualitas dengan memilih bahan-bahan segar dan terbaik secara cermat, dengan tujuan menciptakan minuman bertekstur alami dan kaya rasa.
+                                Kami berkomitmen teguh terhadap kualitas dengan memilih bahan-bahan segar dan 100% terjamin halal secara cermat, dengan tujuan menciptakan bakpao bertekstur alami dan kaya rasa.
                             </p>
                         </div>
                     </div>
@@ -384,26 +384,26 @@
                     <!-- CLASSICO Section -->
                     <div class="row mt-5">
                         <div class="col-12 text-center">
-                            <h2 class="text-white mb-4"><u>CLASSICO</u></h2>
+                            <h3 class="text-white fw-bold mb-4 border-bottom-white border-white border-3  pb-2">CLASSICO</h3>
                         </div>
                         <div class="col-12 col-md-8 offset-md-2">
                             <div class="row g-4">
                                 <div class="col-4 text-center">
                                     <div class="product-card">
                                         <img src="./img/bao1.webp" alt="Strawberry Bao" class="img-fluid hover-zoom" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                                        <p class="text-white mt-3">Strawberry Bao</p>
+                                        <p class="text-white mt-3 fw-bold">Strawberry Bao</p>
                                     </div>
                                 </div>
                                 <div class="col-4 text-center">
                                     <div class="product-card">
                                         <img src="./img/bao2.webp" alt="Blue Bao" class="img-fluid hover-zoom" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                                        <p class="text-white mt-3">Blue Bao</p>
+                                        <p class="text-white mt-3 fw-bold">Blue Bao</p>
                                     </div>
                                 </div>
                                 <div class="col-4 text-center">
                                     <div class="product-card">
                                         <img src="./img/bao3.webp" alt="Green Bao" class="img-fluid hover-zoom" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                                        <p class="text-white mt-3">Green Bao</p>
+                                        <p class="text-white mt-3 fw-bold">Green Bao</p>
                                     </div>
                                 </div>
                             </div>
@@ -413,20 +413,20 @@
                     <!-- MAGNOFIKO Section -->
                     <div class="row mt-5">
                         <div class="col-12 text-center">
-                            <h2 class="text-white mb-4"><u>MAGNOFIKO</u></h2>
+                            <h3 class="text-white fw-bold mb-4 border-bottom-white border-white border-3  pb-2">MAGNOFIKO</h3>
                         </div>
                         <div class="col-12 col-md-8 offset-md-2">
                             <div class="row g-4 justify-content-center">
                                 <div class="col-4 text-center">
                                     <div class="product-card">
                                         <img src="./img/bao4.webp" alt="MeltChoco" class="img-fluid hover-zoom" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                                        <p class="text-white mt-3">MeltChoco</p>
+                                        <p class="text-white mt-3 fw-bold">MeltChoco</p>
                                     </div>
                                 </div>
                                 <div class="col-4 text-center">
                                     <div class="product-card">
                                         <img src="./img/bao5.webp" alt="CheezyLicious" class="img-fluid hover-zoom" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                                        <p class="text-white mt-3">CheezyLicious</p>
+                                        <p class="text-white mt-3 fw-bold">CheezyLicious</p>
                                     </div>
                                 </div>
                             </div>
@@ -436,14 +436,16 @@
                     <!-- PERFECTO Section -->
                     <div class="row mt-5">
                         <div class="col-12 text-center">
-                            <h2 class="text-white mb-4"><u>PERFECTO</u></h2>
+                            <h2 class="fw-bold mb-4 text-white">
+                                <span class="border-bottom-white border-3 border-white pb-2">PERFECTO</span>
+                            </h2>
                         </div>
                         <div class="col-12 col-md-8 offset-md-2">
                             <div class="row g-4 justify-content-center">
                                 <div class="col-4 text-center">
                                     <div class="product-card">
                                         <img src="./img/bao6.webp" alt="ChickChop" class="img-fluid hover-zoom" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                                        <p class="text-white mt-3">ChickChop</p>
+                                        <p class="text-white mt-3 fw-bold">ChickChop</p>
                                     </div>
                                 </div>
                             </div>
