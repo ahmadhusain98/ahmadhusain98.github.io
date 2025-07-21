@@ -666,32 +666,34 @@
         </div>
     </section>
 
-    <footer>
+    <footer class="py-4">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-8 my-auto">
-                    <div class="table-responsive fw-bold">
-                        <table width="100%" cellpadding="10px">
-                            <tr>
-                                <td>Beranda</td>
-                                <td>Dormitory / Asrama</td>
-                                <td>Ruang Produksi</td>
-                            </tr>
-                            <tr>
-                                <td>Cabang kami</td>
-                                <td>Konsep Kemitraan</td>
-                                <td>Financial Projection</td>
-                            </tr>
-                            <tr>
-                                <td>Kilas Balik</td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                        </table>
+                <div class="col-lg-8 col-md-7 col-12 mb-4 mb-md-0 my-auto">
+                    <div class="row g-4">
+                        <div class="col-sm-4 col-6">
+                            <ul class="list-unstyled fw-bold">
+                                <li class="mb-2"><a href="#home" class="text-decoration-none text-white">Beranda</a></li>
+                                <li class="mb-2"><a href="#sec2" class="text-decoration-none text-white">Cabang kami</a></li>
+                                <li><a href="#sec3" class="text-decoration-none text-white">Kilas Balik</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-6">
+                            <ul class="list-unstyled fw-bold">
+                                <li class="mb-2"><a href="#sec5" class="text-decoration-none text-white">Dormitory / Asrama</a></li>
+                                <li><a href="#sec2" class="text-decoration-none text-white">Konsep Kemitraan</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-6">
+                            <ul class="list-unstyled fw-bold">
+                                <li class="mb-2"><a href="#sec4" class="text-decoration-none text-white">Ruang Produksi</a></li>
+                                <li><a href="#sec7" class="text-decoration-none text-white">Financial Projection</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-4 my-auto">
-                    <img src="./img/logo_baobae.png" style="width: 15vw;" class="float-end">
+                <div class="col-lg-4 col-md-5 col-12 text-md-end text-center my-auto">
+                    <img src="./img/logo_baobae.png" class="img-fluid" style="max-width: 150px;">
                 </div>
             </div>
         </div>
