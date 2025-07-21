@@ -129,156 +129,219 @@
 
     <section id="sec3">
         <div class="container">
-            <div class="row g-5">
-                <div class="col-md-4 col-4">
-                    <button type="button" id="btn1" class="btn text-color-primary text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(1)">Tentang Baobae.id <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn2" class="btn text-color-primary text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(2)">Cabang Kami <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn3" class="btn text-color-primary text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(3)">Kilas Balik <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn4" class="btn text-color-primary text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(4)">Ruang Produksi <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn5" class="btn text-color-primary text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(5)">Dormitory / Asrama <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn6" class="btn text-color-primary text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(6)">Paket Kemitraan <i class="fa-solid fa-play"></i></button>
-                    <button type="button" id="btn7" class="btn text-color-primary text2 btn-accordion d-flex justify-content-between align-items-center w-100" onclick="ct(7)">Financial Projection <i class="fa-solid fa-play"></i></button>
+            <div class="row g-4">
+                <!-- Sidebar buttons -->
+                <div class="col-12 col-md-4">
+                    <div class="d-flex flex-column gap-2">
+                        <button type="button" id="btn1" class="btn text-color-primary text2 btn-accordion d-flex justify-content-between align-items-center w-100 py-3" onclick="ct(1)">
+                            <span class="text-truncate me-2">Tentang Baobae.id</span>
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                        <button type="button" id="btn2" class="btn text-color-primary text2 btn-accordion d-flex justify-content-between align-items-center w-100 py-3" onclick="ct(2)">
+                            <span class="text-truncate me-2">Cabang Kami</span>
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                        <button type="button" id="btn3" class="btn text-color-primary text2 btn-accordion d-flex justify-content-between align-items-center w-100 py-3" onclick="ct(3)">
+                            <span class="text-truncate me-2">Kilas Balik</span>
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                        <button type="button" id="btn4" class="btn text-color-primary text2 btn-accordion d-flex justify-content-between align-items-center w-100 py-3" onclick="ct(4)">
+                            <span class="text-truncate me-2">Ruang Produksi</span>
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                        <button type="button" id="btn5" class="btn text-color-primary text2 btn-accordion d-flex justify-content-between align-items-center w-100 py-3" onclick="ct(5)">
+                            <span class="text-truncate me-2">Dormitory / Asrama</span>
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                        <button type="button" id="btn6" class="btn text-color-primary text2 btn-accordion d-flex justify-content-between align-items-center w-100 py-3" onclick="ct(6)">
+                            <span class="text-truncate me-2">Paket Kemitraan</span>
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                        <button type="button" id="btn7" class="btn text-color-primary text2 btn-accordion d-flex justify-content-between align-items-center w-100 py-3" onclick="ct(7)">
+                            <span class="text-truncate me-2">Financial Projection</span>
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
                 </div>
-                <div class="col-md-8 col-8">
+
+                <!-- Content cards -->
+                <div class="col-12 col-md-8">
                     <div class="card h-100" id="content1">
-                        <div class="card-body text-center text2">
+                        <div class="card-body text-center text2 p-4">
                             <div class="content-accordion">
-                                <img src="./img/ac1.webp" alt="" srcset="" class="img-s3 mb-3">
-                                <div class="h3 mb-3">Tentang Baobae.id</div>
-                                <p>
+                                <img src="./img/ac1.webp" alt="Tentang Baobae.id" class="img-fluid img-s3 mb-4 rounded">
+                                <h3 class="mb-4">Tentang Baobae.id</h3>
+                                <p class="mb-0">
                                     Selama satu dekade, Kami telah tumbuh menjadi simbol kepercayaan dan kelezatan dalam industri bakpao halal. Setiap gigitan adalah cerita tentang dedikasi, sebagai komitmen pada kualitas halal dan perbaikan diri Kami. Pembelajaran pengalaman dari waktu ke waktu mengukir Kami hingga berhasil menemukan cara untuk menghasilkan produk-produk halal, berkualitas, dengan harga yang terjangkau.
                                 </p>
                             </div>
                         </div>
                     </div>
+
                     <div class="card h-100" id="content2">
-                        <div class="card-body text-center text2">
+                        <div class="card-body text-center text2 p-4">
                             <div class="content-accordion">
-                                <img src="./img/ac2.webp" alt="" srcset="" class="img-s3 mb-3">
-                                <div class="h3 mb-3">Cabang Kami</div>
-                                <p>
+                                <img src="./img/ac2.webp" alt="Cabang Kami" class="img-fluid img-s3 mb-4 rounded">
+                                <h3 class="mb-4">Cabang Kami</h3>
+                                <p class="mb-0">
                                     Usaha bakpao ini, pertama kali beroperasi pada 22 Mei 2015 yang berlokasi di Palur, Solo. Menginjak akhir tahun 2024, Usaha ini resmi telah membuka 8 cabang serta 1 satelit di Jawa dan Kalimantan. Yaitu Solo, Batang, Semarang, Pangkalan Bun, Banjarmasin, Banjarbaru, Pelai hari, Kandangan, dan Paringin.
                                 </p>
                             </div>
                         </div>
                     </div>
+
                     <div class="card h-100" id="content3">
-                        <div class="card-body text-center text2">
+                        <div class="card-body text-center text2 p-4">
                             <div class="content-accordion">
-                                <img src="./img/ac3.webp" alt="" srcset="" class="img-s3 mb-3">
-                                <div class="h3 mb-3">Kilas Balik</div>
-                                <p>
-                                    <b>EVALUASI MINGGUAN | UMRAH BERSAMA | UPSCALING PIKNIK | TASYAKURAN</b>
-                                    <br>Untuk mencapai kesejahteraan bersama, seminggu sekali Kami menga dakan evaluasi rutin dan doa bersama di setiap cabang, melakukan umrah bersama secara bertahap, menambah ilmu dari para cendekia, piknik 3 tahun sekali, dan melakukan tasyakuran sebelum memulai usaha produksi dan penjualan.
+                                <img src="./img/ac3.webp" alt="Kilas Balik" class="img-fluid img-s3 mb-4 rounded">
+                                <h3 class="mb-4">Kilas Balik</h3>
+                                <p class="mb-0">
+                                    <strong class="d-block mb-3">EVALUASI MINGGUAN | UMRAH BERSAMA | UPSCALING PIKNIK | TASYAKURAN</strong>
+                                    Untuk mencapai kesejahteraan bersama, seminggu sekali Kami mengadakan evaluasi rutin dan doa bersama di setiap cabang, melakukan umrah bersama secara bertahap, menambah ilmu dari para cendekia, piknik 3 tahun sekali, dan melakukan tasyakuran sebelum memulai usaha produksi dan penjualan.
                                 </p>
                             </div>
                         </div>
                     </div>
+
                     <div class="card h-100" id="content4">
-                        <div class="card-body text-center text2">
+                        <div class="card-body text2 p-4">
                             <div class="content-accordion">
-                                <img src="./img/ac4.webp" alt="" srcset="" class="img-s3 mb-3">
-                                <div class="h3 mb-3">Ruang Produksi</div>
-                                <p>
-                                <ul style="text-align: left !important;">
-                                    <li>Lantai dan Dinding mudah dibersihkan</li>
-                                    <li>Jalur air bersih</li>
-                                    <li>Tempat cuci alat + jalur air Pembuangan</li>
-                                    <li>Sirkulasi udara lancar</li>
-                                    <li>Pencahayaan vaik ( tidak lembab )</li>
+                                <img src="./img/ac4.webp" alt="Ruang Produksi" class="img-fluid img-s3 mb-4 rounded">
+                                <h3 class="text-center mb-4">Ruang Produksi</h3>
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-2">• Lantai dan Dinding mudah dibersihkan</li>
+                                    <li class="mb-2">• Jalur air bersih</li>
+                                    <li class="mb-2">• Tempat cuci alat + jalur air Pembuangan</li>
+                                    <li class="mb-2">• Sirkulasi udara lancar</li>
+                                    <li>• Pencahayaan baik (tidak lembab)</li>
                                 </ul>
-                                </p>
                             </div>
                         </div>
                     </div>
+
                     <div class="card h-100" id="content5">
-                        <div class="card-body text-center text2">
+                        <div class="card-body text2 p-4">
                             <div class="content-accordion">
-                                <img src="./img/ac5.webp" alt="" srcset="" class="img-s3 mb-3">
-                                <div class="h3 mb-3">Dormitory / Asrama</div>
-                                <p>
-                                <div class="row">
-                                    <div class="col-md-6 col-12">
-                                        <ul style="text-align: left !important;">
-                                            <li>Ruang Serbaguna</li>
-                                            <li>Kamar tidur (kapasitas 5-10 orang)</li>
-                                            <li>Ruang Manajer</li>
+                                <img src="./img/ac5.webp" alt="Dormitory / Asrama" class="img-fluid img-s3 mb-4 rounded">
+                                <h3 class="text-center mb-4">Dormitory / Asrama</h3>
+                                <div class="row g-4">
+                                    <div class="col-12 col-sm-6">
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="mb-2">• Ruang Serbaguna</li>
+                                            <li class="mb-2">• Kamar tidur (kapasitas 5-10 orang)</li>
+                                            <li>• Ruang Manajer</li>
                                         </ul>
                                     </div>
-                                    <div class="col-md-6 col-12">
-                                        <ul style="text-align: left !important;">
-                                            <li>2 Kamar Mandi</li>
-                                            <li>Dapur + Laundry</li>
-                                            <li>Tempat Parkir Gerobak (18 m )</li>
+                                    <div class="col-12 col-sm-6">
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="mb-2">• 2 Kamar Mandi</li>
+                                            <li class="mb-2">• Dapur + Laundry</li>
+                                            <li>• Tempat Parkir Gerobak (18 m)</li>
                                         </ul>
                                     </div>
                                 </div>
-                                </p>
                             </div>
                         </div>
                     </div>
+
                     <div class="card h-100" id="content6">
-                        <div class="card-body text-center text2">
+                        <div class="card-body text2 p-4">
                             <div class="content-accordion">
-                                <div class="h3 mb-3"><button class="btn bg-color-primary text-white w-100 fw-bold" style="border-radius: 0px !important;">PAKET KEMITRAAN</button></div>
-                                <p>
-                                <ul style="text-align: left !important;">
-                                    <li class="text-color-primary">Perlengkapan Pembuatan Produk</li>
-                                    <li>+ Pelatihan 3 orang tenaga produksi</li>
-                                    <li class="text-color-primary">Suplai bahan baku</li>
-                                    <li>+ bahan baku bulan pertama</li>
-                                    <li class="text-color-primary">Perlengkapan Penjualan Produk</li>
-                                    <li>+ Pelatihan 5 orang Salesman</li>
-                                    <li class="text-color-primary">Tim Perintis Penjualan</li>
-                                    <li>(Usaha menghasilkan dari bulan pertama)</li>
-                                    <li class="text-color-primary">Sewa tempat tahun pertama</li>
-                                    <li>+ setup tempat produksi dan asrama karyawan</li>
-                                    <li class="text-color-primary">Seragam dan Media Promosi</li>
-                                    <li class="text-color-primary">SOP Book & Komputer Administrasi</li>
-                                    <li>+ Pelatihan Manajerial</li>
-                                    <li class="text-color-primary">Standar desain Tempat Produksi</li>
-                                    <li class="text-color-primary">Freezer</li>
-                                    <li class="text-color-primary">Alat kebersihan dan Perlengkapan Asrama Karyawan</li>
-                                    <li class="text-color-primary">Survey dan Pemetaan wilayah </li>
-                                    <li class="text-color-primary">Pembagian area salesman</li>
-                                    <li class="text-color-primary">Dukungan marketing online</li>
-                                    <li class="text-color-primary">Biaya Kemitraan</li>
+                                <h3 class="text-center mb-4">
+                                    <button class="btn bg-color-primary text-white w-100 fw-bold py-3">PAKET KEMITRAAN</button>
+                                </h3>
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-2 text-color-primary">• Perlengkapan Pembuatan Produk</li>
+                                    <li class="mb-2">+ Pelatihan 3 orang tenaga produksi</li>
+                                    <li class="mb-2 text-color-primary">• Suplai bahan baku</li>
+                                    <li class="mb-2">+ bahan baku bulan pertama</li>
+                                    <li class="mb-2 text-color-primary">• Perlengkapan Penjualan Produk</li>
+                                    <li class="mb-2">+ Pelatihan 5 orang Salesman</li>
+                                    <li class="mb-2 text-color-primary">• Tim Perintis Penjualan</li>
+                                    <li class="mb-2">(Usaha menghasilkan dari bulan pertama)</li>
+                                    <li class="mb-2 text-color-primary">• Sewa tempat tahun pertama</li>
+                                    <li class="mb-2">+ setup tempat produksi dan asrama karyawan</li>
+                                    <li class="mb-2 text-color-primary">• Seragam dan Media Promosi</li>
+                                    <li class="mb-2 text-color-primary">• SOP Book & Komputer Administrasi</li>
+                                    <li class="mb-2">+ Pelatihan Manajerial</li>
+                                    <li class="mb-2 text-color-primary">• Standar desain Tempat Produksi</li>
+                                    <li class="mb-2 text-color-primary">• Freezer</li>
+                                    <li class="mb-2 text-color-primary">• Alat kebersihan dan Perlengkapan Asrama Karyawan</li>
+                                    <li class="mb-2 text-color-primary">• Survey dan Pemetaan wilayah</li>
+                                    <li class="mb-2 text-color-primary">• Pembagian area salesman</li>
+                                    <li class="mb-2 text-color-primary">• Dukungan marketing online</li>
+                                    <li class="text-color-primary">• Biaya Kemitraan</li>
                                 </ul>
-                                </p>
                             </div>
                         </div>
                     </div>
+
                     <div class="card h-100" id="content7">
-                        <div class="card-body text-center text2">
+                        <div class="card-body text2 p-4">
                             <div class="content-accordion">
-                                <div class="h3 mb-3 text-color-primary">Financial Projection</div>
-                                <div class="h3 mb-3 text-color-primary text-start fw-bold">SKENARIO PENJUALAN (1 BULAN)</div>
-                                <button class="btn bg-color-primary text-white w-100 fw-bold" style="border-radius: 0px !important;"><span class="float-start">MODAL AWAL</span> <span class="float-end">300,000,000</span></button>
-                                <hr style="border: 2px solid #98CD03;">
-                                <ul style="text-align: left !important;">
-                                    <li>Rata-rata penjualan per hari <span class="float-end"><?= number_format(560) ?></span></li>
-                                    <li>Rata-rata nominal transaksi <span class="float-end"><?= number_format(5600) ?></span></li>
-                                    <li>Jumlah hari dalam sebulan <span class="float-end"><?= number_format(30) ?></span></li>
-                                </ul>
-                                <hr style="border: 2px solid #98CD03;">
-                                <ul style="text-align: left !important;">
-                                    <li>Total Penjualan dalam sebulan <span class="float-end"><?= number_format(94080000) ?></span></li>
-                                </ul>
-                                <br>
-                                <ul style="text-align: left !important;">
-                                    <li>Harga Pokok Penjualan (23%) <span class="float-end"><?= number_format(21638400) ?></span></li>
-                                    <li>Operasional + Komisi Penjualan (33%) <span class="float-end"><?= number_format(31046400) ?></span></li>
-                                    <li>Gaji Karyawan + Biaya Penyusutan <span class="float-end"><?= number_format(28000000) ?></span></li>
-                                </ul>
-                                <hr style="border: 2px solid #98CD03;">
-                                <ul style="text-align: left !important;">
-                                    <li>Laba Bersih <span class="float-end"><?= number_format(13395200) ?></span></li>
-                                </ul>
-                                <br>
-                                <ul style="text-align: left !important;">
-                                    <li>Break Even Point (pcs/hari) <span class="float-end"><?= number_format(347) ?></span></li>
-                                    <li>ROI per tahun <span class="float-end"><?= number_format(45) . '%' ?></span></li>
-                                </ul>
+                                <h3 class="text-color-primary text-center mb-4">Financial Projection</h3>
+                                <h4 class="text-color-primary fw-bold mb-4">SKENARIO PENJUALAN (1 BULAN)</h4>
+
+                                <button class="btn bg-color-primary text-white w-100 fw-bold py-3 mb-4">
+                                    <span class="float-start">MODAL AWAL</span>
+                                    <span class="float-end">300,000,000</span>
+                                </button>
+
+                                <div class="mb-4">
+                                    <hr class="border-success border-2 mb-3">
+                                    <ul class="list-unstyled mb-3">
+                                        <li class="d-flex justify-content-between mb-2">
+                                            <span>Rata-rata penjualan per hari</span>
+                                            <span><?= number_format(560) ?></span>
+                                        </li>
+                                        <li class="d-flex justify-content-between mb-2">
+                                            <span>Rata-rata nominal transaksi</span>
+                                            <span><?= number_format(5600) ?></span>
+                                        </li>
+                                        <li class="d-flex justify-content-between">
+                                            <span>Jumlah hari dalam sebulan</span>
+                                            <span><?= number_format(30) ?></span>
+                                        </li>
+                                    </ul>
+                                    <hr class="border-success border-2 mb-3">
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="d-flex justify-content-between">
+                                            <span>Total Penjualan dalam sebulan</span>
+                                            <span><?= number_format(94080000) ?></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled mb-3">
+                                        <li class="d-flex justify-content-between mb-2">
+                                            <span>Harga Pokok Penjualan (23%)</span>
+                                            <span><?= number_format(21638400) ?></span>
+                                        </li>
+                                        <li class="d-flex justify-content-between mb-2">
+                                            <span>Operasional + Komisi Penjualan (33%)</span>
+                                            <span><?= number_format(31046400) ?></span>
+                                        </li>
+                                        <li class="d-flex justify-content-between">
+                                            <span>Gaji Karyawan + Biaya Penyusutan</span>
+                                            <span><?= number_format(28000000) ?></span>
+                                        </li>
+                                    </ul>
+                                    <hr class="border-success border-2 mb-3">
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="d-flex justify-content-between">
+                                            <span>Laba Bersih</span>
+                                            <span><?= number_format(13395200) ?></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="d-flex justify-content-between mb-2">
+                                            <span>Break Even Point (pcs/hari)</span>
+                                            <span><?= number_format(347) ?></span>
+                                        </li>
+                                        <li class="d-flex justify-content-between">
+                                            <span>ROI per tahun</span>
+                                            <span><?= number_format(45) . '%' ?></span>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
