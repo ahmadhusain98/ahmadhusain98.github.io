@@ -656,7 +656,7 @@
                             <div class="col-12 col-sm-4">
                                 <div class="d-flex align-items-center">
                                     <i class="fa-brands fa-facebook fa-2x me-3"></i>
-                                    <a href="https://www.facebook.com/baobaeid/" target="_blank" class="text-decoration-none text-dark">BaoBae ID</a>
+                                    <a href="https://www.facebook.com/share/1FZi6iPthg/" target=" _blank" class="text-decoration-none text-dark">BaoBae ID</a>
                                 </div>
                             </div>
                         </div>
@@ -698,6 +698,39 @@
             </div>
         </div>
     </footer>
+
+    <a href="https://wa.me/628112855345" target="_blank" class="floating-wa" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="WhatsApp">
+        <div class="wa-background">
+            <img src="./img/wa.png" alt="WhatsApp Contact" class="wa-icon">
+        </div>
+    </a>
+
+    <!-- Initialize tooltips -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+            const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+        });
+    </script>
+
+    <style>
+        .floating-wa {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .wa-icon {
+            width: clamp(60px, 8vw, 100px);
+            height: clamp(60px, 8vw, 100px);
+            transition: transform 0.3s ease;
+        }
+
+        .wa-icon:hover {
+            transform: scale(1.1);
+        }
+    </style>
 
     <script>
         na(1);
