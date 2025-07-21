@@ -612,8 +612,10 @@
                             <span class="border-bottom border-3 border-purple pb-2">Office</span>
                         </h2>
                         <ul class="list-unstyled">
-                            <li>PT Sewangi Hati Nusantara</li>
-                            <li>Ponpes Al Ittihad Jurang Temanggung</li>
+                            <a href="https://maps.app.goo.gl/2ociEjYWDxNb8Apw9" target="_blank" class="text-decoration-none text-dark">
+                                <li>PT Sewangi Hati Nusantara</li>
+                                <li>Ponpes Al Ittihad Jurang Temanggung</li>
+                            </a>
                         </ul>
                     </div>
                     <div>
@@ -621,7 +623,7 @@
                             <span class="border-bottom border-3 border-purple pb-2">Phone</span>
                         </h2>
                         <ul class="list-unstyled">
-                            <li>(+62) 0811-2855-345</li>
+                            <li><a href="tel:+628112855345" target="_blank" class="text-decoration-none text-dark">(+62) 0811-2855-345</a></li>
                         </ul>
                     </div>
                 </div>
@@ -631,7 +633,7 @@
                             <span class="border-bottom border-3 border-purple pb-2">Email</span>
                         </h2>
                         <ul class="list-unstyled">
-                            <li>baobaeid@gmail.com</li>
+                            <li><a href="mailto:baobaeid@gmail.com" target="_blank" class="text-decoration-none text-dark">baobaeid@gmail.com</a></li>
                         </ul>
                     </div>
                     <div>
@@ -642,19 +644,19 @@
                             <div class="col-12 col-sm-4">
                                 <div class="d-flex align-items-center">
                                     <i class="fa-brands fa-instagram fa-2x me-3"></i>
-                                    <a href="https://www.instagram.com/baobaeid/" class="text-decoration-none text-dark fs-5">@baobaeid</a>
+                                    <a href="https://www.instagram.com/kemitraanbaobae?igsh=NndocnBhMTEwZHI0" target="_blank" class="text-decoration-none text-dark">@baobaeid</a>
                                 </div>
                             </div>
                             <div class="col-12 col-sm-4">
                                 <div class="d-flex align-items-center">
                                     <i class="fa-brands fa-tiktok fa-2x me-3"></i>
-                                    <a href="https://www.tiktok.com/baobaeid/" class="text-decoration-none text-dark fs-5">@baobae.id</a>
+                                    <a href="https://www.tiktok.com/baobaeid/" target="_blank" class="text-decoration-none text-dark">@baobae.id</a>
                                 </div>
                             </div>
                             <div class="col-12 col-sm-4">
                                 <div class="d-flex align-items-center">
                                     <i class="fa-brands fa-facebook fa-2x me-3"></i>
-                                    <a href="https://www.facebook.com/baobaeid/" class="text-decoration-none text-dark fs-5">BaoBae ID</a>
+                                    <a href="https://www.facebook.com/baobaeid/" target="_blank" class="text-decoration-none text-dark">BaoBae ID</a>
                                 </div>
                             </div>
                         </div>
