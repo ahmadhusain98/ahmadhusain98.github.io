@@ -51,10 +51,10 @@
     </nav>
 
     <section id="sec1">
-        <div class="container pt-5 pb-5">
+        <div class="container pt-md-5 pt-3 pb-md-5">
             <div class="row">
                 <div class="col-md-6 col-12 my-auto">
-                    <div class="row mt-5">
+                    <div class="row mt-md-5 mt-3">
                         <div class="col-md-12">
                             <div class="w7 h1 text-color-primary">BaoBae.id</div>
                             <p class="text">
