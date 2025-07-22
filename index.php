@@ -550,7 +550,7 @@
                         <span class="border-bottom border-3 border-purple pb-2">HARGA TERJANGKAU</span>
                     </h2>
                     <p class="text">
-                        Harga yang murah dengan bahan premium menjangkau segmen kon sumen terbawah hingga menengah ataS
+                        Harga yang murah dengan bahan premium menjangkau segmen konsumen terbawah hingga menengah atas
                     </p>
                 </div>
                 <div class="col-md-6">
@@ -558,7 +558,7 @@
                         <span class="border-bottom border-3 border-purple pb-2">LOKASI SUKA-SUKA</span>
                     </h2>
                     <p class="text">
-                        Usaha ini tidak membutuhkan lokasi di tepi jalan raya, sehingga dapat me nekan biaya sewa
+                        Usaha ini tidak membutuhkan lokasi di tepi jalan raya, sehingga dapat menekan biaya sewa
                     </p>
                 </div>
             </div>
@@ -576,7 +576,7 @@
                         <span class="border-bottom border-3 border-purple pb-2">FLEKSIBEL DAN CEPAT</span>
                     </h2>
                     <p class="text">
-                        Bergerak fleksibel dengan daya jang kau luas dan cepat, menjangkau kon sumen secara langsung, omzet berli pat daripada menetap
+                        Bergerak fleksibel dengan daya jangkau luas dan cepat, menjangkau konsumen secara langsung, omzet berlipat daripada menetap
                     </p>
                 </div>
             </div>
