@@ -532,10 +532,10 @@
                         <span class="border-bottom border-3 border-purple pb-2">FRESH STEAMER</span>
                     </h2>
                     <div class="row">
-                        <div class="col-md-1 my-auto">
+                        <div class="col-md-2 col-2 my-auto">
                             <img src="./img/fresh.png" class="w-100">
                         </div>
-                        <div class="col-md-11 my-auto">
+                        <div class="col-md-10 col-10 my-auto">
                             <p class="text">
                                 Kami berkomitmen teguh terhadap kualitas dengan memilih bahan-bahan segar dan terbaik secara cermat, dengan tujuan menciptakan minuman bertekstur alami dan kaya rasa.
                             </p>
@@ -547,10 +547,10 @@
                         <span class="border-bottom border-3 border-purple pb-2">KARIR BERJENJANG</span>
                     </h2>
                     <div class="row">
-                        <div class="col-md-1 my-auto">
+                        <div class="col-md-2 col-2 my-auto">
                             <img src="./img/karir.png" class="w-100">
                         </div>
-                        <div class="col-md-11 my-auto">
+                        <div class="col-md-10 col-10 my-auto">
                             <p class="text">
                                 Sistem jenjang karir yang terbuka bagi karyawan yang berprestasi, memudahkan mitra untuk mendelegasikan cabang usaha baru
                             </p>
@@ -564,10 +564,10 @@
                         <span class="border-bottom border-3 border-purple pb-2">HARGA TERJANGKAU</span>
                     </h2>
                     <div class="row">
-                        <div class="col-md-1 my-auto">
+                        <div class="col-md-2 col-2 my-auto">
                             <img src="./img/harga.png" class="w-100">
                         </div>
-                        <div class="col-md-11 my-auto">
+                        <div class="col-md-10 col-10 my-auto">
                             <p class="text">
                                 Harga yang murah dengan bahan premium menjangkau segmen konsumen terbawah hingga menengah atas
                             </p>
@@ -579,10 +579,10 @@
                         <span class="border-bottom border-3 border-purple pb-2">FLEKSIBEL DAN CEPAT</span>
                     </h2>
                     <div class="row">
-                        <div class="col-md-1 my-auto">
+                        <div class="col-md-2 col-2 my-auto">
                             <img src="./img/flexible.png" class="w-100">
                         </div>
-                        <div class="col-md-11 my-auto">
+                        <div class="col-md-10 col-10 my-auto">
                             <p class="text">
                                 Bergerak fleksibel dengan daya jangkau luas dan cepat, menjangkau konsumen secara langsung, omzet berlipat daripada menetap
                             </p>
@@ -596,10 +596,10 @@
                         <span class="border-bottom border-3 border-purple pb-2">BAHAN PREMIUM</span>
                     </h2>
                     <div class="row">
-                        <div class="col-md-1 my-auto">
+                        <div class="col-md-2 col-2 my-auto">
                             <img src="./img/bahan.png" class="w-100">
                         </div>
-                        <div class="col-md-11 my-auto">
+                        <div class="col-md-10 col-10 my-auto">
                             <p class="text">
                                 Menggunakan bahan baku yang halal berkualitas premium dengan harga yang terjangkau
                             </p>
@@ -611,10 +611,10 @@
                         <span class="border-bottom border-3 border-purple pb-2">LOKASI SUKA-SUKA</span>
                     </h2>
                     <div class="row">
-                        <div class="col-md-1 my-auto">
+                        <div class="col-md-2 col-2 my-auto">
                             <img src="./img/lokasi.png" class="w-100">
                         </div>
-                        <div class="col-md-11 my-auto">
+                        <div class="col-md-10 col-10 my-auto">
                             <p class="text">
                                 Usaha ini tidak membutuhkan lokasi di tepi jalan raya, sehingga dapat menekan biaya sewa
                             </p>
