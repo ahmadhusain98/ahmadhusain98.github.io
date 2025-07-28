@@ -454,19 +454,19 @@
                                 <div class="col-4 text-center">
                                     <div class="product-card">
                                         <img src="./img/bao1.webp" alt="Strawberry Bao" class="img-fluid hover-zoom" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                                        <p class="text-white mt-3 fw-bold">Strawberry Bao</p>
+                                        <p class="text-white mt-3 fw-bold">StrawBao</p>
                                     </div>
                                 </div>
                                 <div class="col-4 text-center">
                                     <div class="product-card">
                                         <img src="./img/bao2.webp" alt="Blue Bao" class="img-fluid hover-zoom" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                                        <p class="text-white mt-3 fw-bold">Blue Bao</p>
+                                        <p class="text-white mt-3 fw-bold">BlueBao</p>
                                     </div>
                                 </div>
                                 <div class="col-4 text-center">
                                     <div class="product-card">
                                         <img src="./img/bao3.webp" alt="Green Bao" class="img-fluid hover-zoom" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
-                                        <p class="text-white mt-3 fw-bold">Green Bao</p>
+                                        <p class="text-white mt-3 fw-bold">GreenBao</p>
                                     </div>
                                 </div>
                             </div>
@@ -476,7 +476,7 @@
                     <!-- MAGNOFIKO Section -->
                     <div class="row mt-5">
                         <div class="col-12 text-center">
-                            <h3 class="text-white fw-bold mb-4 border-bottom-white border-white border-3  pb-2">MAGNOFIKO</h3>
+                            <h3 class="text-white fw-bold mb-4 border-bottom-white border-white border-3  pb-2">MAGNIFICO</h3>
                         </div>
                         <div class="col-12 col-md-8 offset-md-2">
                             <div class="row g-4 justify-content-center">
