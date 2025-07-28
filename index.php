@@ -537,7 +537,7 @@
                         </div>
                         <div class="col-md-10 col-10 my-auto">
                             <p class="text">
-                                Kami berkomitmen teguh terhadap kualitas dengan memilih bahan-bahan segar dan terbaik secara cermat, dengan tujuan menciptakan minuman bertekstur alami dan kaya rasa.
+                                Produsen dekat konsumen, memungkinkan produk tanpa pengawet dapat dinikmati konsumen pada hari yang sama
                             </p>
                         </div>
                     </div>
@@ -552,7 +552,7 @@
                         </div>
                         <div class="col-md-10 col-10 my-auto">
                             <p class="text">
-                                Sistem jenjang karir yang terbuka bagi karyawan yang berprestasi, memudahkan mitra untuk mendelegasikan cabang usaha baru
+                                Sistem jenjang karir yang terbuka bagi karyawan yang berprestasi,memudahkan mitra untuk mendelegasikan cabang usaha baru
                             </p>
                         </div>
                     </div>
@@ -584,7 +584,7 @@
                         </div>
                         <div class="col-md-10 col-10 my-auto">
                             <p class="text">
-                                Bergerak fleksibel dengan daya jangkau luas dan cepat, menjangkau konsumen secara langsung, omzet berlipat daripada menetap
+                                Bergerak fleksibel dengan daya jangkau luas dan cepat, menjangkau konsumen secara langsung, omzet berlipat daripada menetap.
                             </p>
                         </div>
                     </div>
