@@ -406,7 +406,7 @@
                                     </div>
                                     <div class="row mb-3">
                                         <div class="col-md-12">
-                                            <input type="text" class="form-control" name="budget" id="budget" placeholder="Budget*">
+                                            <input type="text" class="form-control" name="budget" id="budget" placeholder="Budget*" onkeyup="rp(this.value)">
                                         </div>
                                     </div>
                                     <div class="row mb-3">
@@ -869,6 +869,24 @@
             // Add active class to selected button
             document.getElementById(`btn${param || 7}`).classList.add('active');
             $('#content' + param).show();
+        }
+
+        function rp(param) {
+            // format number menjadi format rupiah
+            var number_string = param.replace(/[^,\d]/g, '').toString(),
+                split = number_string.split(','),
+                sisa = split[0].length % 3,
+                rupiah = split[0].substr(0, sisa),
+                ribuan = split[0].substr(sisa).match(/\d{3}/gi);
+
+            // tambahkan titik jika yang di input sudah menjadi angka ribuan
+            if (ribuan) {
+                separator = sisa ? '.' : '';
+                rupiah += separator + ribuan.join('.');
+            }
+
+            rupiah = split[1] != undefined ? rupiah + ',' + split[1] : rupiah;
+            document.getElementById('budget').value = rupiah;
         }
     </script>
 
