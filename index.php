@@ -382,7 +382,10 @@
                                             <input type="number" class="form-control mb-3" name="nohp" id="nohp" placeholder="No HP">
                                         </div>
                                         <div class="col-md-6">
-                                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                                <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="row mb-3">
@@ -406,7 +409,10 @@
                                     </div>
                                     <div class="row mb-3">
                                         <div class="col-md-12">
-                                            <input type="text" class="form-control" name="budget" id="budget" placeholder="Budget*" onkeyup="rp(this.value)">
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">Rp</span>
+                                                <input type="text" class="form-control text-end" name="budget" id="budget" placeholder="0" aria-label="Username" aria-describedby="basic-addon1" onkeyup="rp(this.value)">
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="row mb-3">
