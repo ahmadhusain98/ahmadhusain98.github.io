@@ -22,6 +22,9 @@
 
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- sweeralert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body id="home">
@@ -367,7 +370,7 @@
                 <div class="col-md-8 offset-md-2">
                     <div class="card for-sec4">
                         <div class="card-body">
-                            <form action="">
+                            <form name="form_baobae">
                                 <div class="form-group form-sec4">
                                     <div class="row mb-3">
                                         <div class="col-md-12">
@@ -413,7 +416,11 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12 text-center">
-                                            <button type="button" class="btn btn-hijau btn-sec4">Kirim</button>
+                                            <button type="submit" id="btn-send" class="btn btn-hijau btn-sec4">Kirim</button>
+                                            <button class="btn btn-hijau btn-sec4" id="btn-load" type="button" disabled>
+                                                <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                                                <span role="status">Mohon Tunggu...</span>
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
@@ -869,6 +876,46 @@
     <script src="./myjs.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+    <script>
+        const btn_send = document.getElementById('btn-send');
+        const btn_load = document.getElementById('btn-load');
+
+        btn_load.style.display = 'none';
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxJcGLNrS-qoITUktbcSTab3_ldkjGvF7z0JLv9D2BrVa5vkjz_qmMmm8PQDyjA1Xj8/exec'
+        const form = document.forms['form_baobae']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            // ketika di submit
+            btn_send.disabled = true;
+            btn_load.disabled = false;
+            btn_load.style.display = 'inline-block';
+            btn_send.style.display = 'none';
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    Swal.fire({
+                        title: "Berhasil!",
+                        icon: "success",
+                        draggable: true
+                    });
+
+                    console.log('Success!', response)
+
+                    btn_send.disabled = false;
+                    btn_load.disabled = true;
+                    btn_load.style.display = 'none';
+                    btn_send.style.display = 'inline-block';
+
+                    form.reset(); // Reset the form after submission
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
 </body>
 
 </html>
